@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false">
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2CYKGUf8JDz9ahIKohhqBug9j2H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fibonacci/Desktop/PhpAppn04.09/Apf/sdk/Avalonia/Interactivity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf\Media" />
+      <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf" />
+      <recent name="C:\Users\Bina\Desktop\PhpAppn07.08\Avalonia.Php\sdk\Avalonia\Controls" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/phplib/composer.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run" type="ShConfigurationType" editBeforeRun="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net6.0/AvaloniaApplication1.exe" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="false" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net6.0" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="" />
+      <created>1658974064088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658974064088</updated>
+      <workItem from="1658974092500" duration="14000" />
+      <workItem from="1658983780231" duration="3699000" />
+      <workItem from="1659806356162" duration="385000" />
+      <workItem from="1659814957929" duration="1813000" />
+      <workItem from="1659957998544" duration="16088000" />
+      <workItem from="1660139974896" duration="1796000" />
+      <workItem from="1660169889444" duration="37435000" />
+      <workItem from="1660517924377" duration="10861000" />
+      <workItem from="1660661830508" duration="5463000" />
+      <workItem from="1660685915931" duration="13744000" />
+      <workItem from="1660769238023" duration="10172000" />
+      <workItem from="1660862994547" duration="4296000" />
+      <workItem from="1662042795217" duration="3423000" />
+      <workItem from="1662567268412" duration="3422000" />
+      <workItem from="1662637834534" duration="7570000" />
+      <workItem from="1662720579469" duration="9974000" />
+      <workItem from="1662899114641" duration="17254000" />
+      <workItem from="1662988514045" duration="7296000" />
+      <workItem from="1663065941769" duration="12148000" />
+      <workItem from="1663162655929" duration="11842000" />
+      <workItem from="1663517826483" duration="7261000" />
+      <workItem from="1663681526780" duration="1852000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

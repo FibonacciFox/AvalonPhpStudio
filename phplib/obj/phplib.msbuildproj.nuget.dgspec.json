@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\phplib\\phplib.msbuildproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\Apf\\Apf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\Apf\\Apf.csproj",
+        "projectName": "Apf",
+        "projectPath": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\Apf\\Apf.csproj",
+        "packagesPath": "C:\\Users\\Fibonacci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\Apf\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fibonacci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.18, )"
+            },
+            "Avalonia.Markup.Xaml.Loader": {
+              "target": "Package",
+              "version": "[0.10.18, )"
+            },
+            "Peachpie.Runtime": {
+              "target": "Package",
+              "version": "[1.0.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\phplib\\phplib.msbuildproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\phplib\\phplib.msbuildproj",
+        "projectName": "phplib",
+        "projectPath": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\phplib\\phplib.msbuildproj",
+        "packagesPath": "C:\\Users\\Fibonacci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\phplib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fibonacci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\Apf\\Apf.csproj": {
+                "projectPath": "C:\\Users\\Fibonacci\\Desktop\\PhpAppn04.09\\Apf\\Apf.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.18, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.10.18, )"
+            },
+            "Avalonia.Markup.Xaml.Loader": {
+              "target": "Package",
+              "version": "[0.10.18, )"
+            },
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.0.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

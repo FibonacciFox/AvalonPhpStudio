@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<assembly><name>phplib</name></assembly>
+<members>
+<member name="T:MyWindow.MainWindow">
+</member>
+<member name="M:MyWindow.MainWindow.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<summary>
+Initializes the class without calling its '__construct' method.
+</summary>
+</member>
+</members>
+</doc>
