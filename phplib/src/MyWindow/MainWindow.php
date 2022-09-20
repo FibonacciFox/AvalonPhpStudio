@@ -74,7 +74,7 @@ class MainWindow extends UxWindow {
 
          //Add([любой ивент], [Id для именования события], [анонимная функция])
          $button->Listener->Add(UxButton::$ClickEvent, "Id", $OnImageChangeIndex);
-
+         $button->Listener->Remove(UxButton::$ClickEvent, "Id");
          //Для понимания как это работает посмотрите UxEvents.cs.
          //Чтобы события у компонента работали, нужно обернуть в класс UxНазвание компонента.
          //Добавить публичное поле public UxEvents Listener;

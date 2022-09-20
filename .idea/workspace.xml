@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="" />
+    <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/UxEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/UxEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/src/MyWindow/MainWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/src/MyWindow/MainWindow.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +34,9 @@
   <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -20,6 +44,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2CYKGUf8JDz9ahIKohhqBug9j2H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -101,7 +126,7 @@
       <workItem from="1663065941769" duration="12148000" />
       <workItem from="1663162655929" duration="11842000" />
       <workItem from="1663517826483" duration="7261000" />
-      <workItem from="1663681526780" duration="1852000" />
+      <workItem from="1663681526780" duration="2508000" />
     </task>
     <servers />
   </component>

@@ -26,9 +26,10 @@ public class UxEvents
         _control?.AddHandler(arg, RoutedEvents[key]);
     }
     
-    public void Remove(string key)
+    public void Remove(RoutedEvent arg, string key)
     {
-        //...
+        _control?.RemoveHandler(arg, RoutedEvents[key]);
+        RoutedEvents.Remove(key);
     }
     
 }
