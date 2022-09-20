@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/phplib/MainWindowS.php" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/phplib/src/MyWindow/MainWindow.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/phplib/src/MyWindow/MainWindow1.php" charset="windows-1251" />
   </component>
 </project>

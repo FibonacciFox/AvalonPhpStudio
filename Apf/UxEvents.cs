@@ -8,28 +8,28 @@ namespace Apf;
 
 public class UxEvents
 {
-    private  IDictionary<string, EventHandler>  RoutedEvents;
+    private readonly IDictionary<PhpValue, EventHandler>  _routedEvents;
     
 
     private  Control? _control;
     
     public UxEvents(Control? uxConrol)
     {
-        RoutedEvents = new Dictionary<string, EventHandler>();
+        _routedEvents = new Dictionary<PhpValue, EventHandler>();
         _control = uxConrol;
     }
 
 
-    public void Add( RoutedEvent arg, string key, Closure closure)
+    public void Add( RoutedEvent arg, PhpValue key, Closure closure)
     {
-        RoutedEvents[key] = (sender, args) => closure?.__invoke(PhpValue.FromClass(sender), PhpValue.FromClass(args));
-        _control?.AddHandler(arg, RoutedEvents[key]);
+        _routedEvents[key] = (sender, args) => closure?.__invoke(PhpValue.FromClass(sender), PhpValue.FromClass(args));
+        _control?.AddHandler(arg, _routedEvents[key]);
     }
     
-    public void Remove(RoutedEvent arg, string key)
+    public void Remove(RoutedEvent arg, PhpValue key)
     {
-        _control?.RemoveHandler(arg, RoutedEvents[key]);
-        RoutedEvents.Remove(key);
+        _control?.RemoveHandler(arg, _routedEvents[key]);
+        _routedEvents.Remove(key);
     }
     
 }
