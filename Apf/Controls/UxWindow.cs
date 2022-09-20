@@ -1,4 +1,4 @@
-﻿
+﻿using Avalonia;
 using Avalonia.Controls;
 
 
@@ -10,5 +10,8 @@ namespace Apf.Controls;
 /// </summary>
 public class UxWindow : Window
 {
-
+    public UxWindow()
+    {
+        
+    }
 }

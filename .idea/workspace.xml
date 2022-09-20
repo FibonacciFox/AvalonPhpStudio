@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxListBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxListBox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/UxEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/UxEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxWindow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" afterDir="false" />
@@ -130,7 +128,7 @@
       <workItem from="1663065941769" duration="12148000" />
       <workItem from="1663162655929" duration="11842000" />
       <workItem from="1663517826483" duration="7261000" />
-      <workItem from="1663681526780" duration="7318000" />
+      <workItem from="1663681526780" duration="9682000" />
     </task>
     <servers />
   </component>

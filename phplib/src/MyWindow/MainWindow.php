@@ -18,7 +18,8 @@ use Avalonia\{
     Controls\StackPanel,
     Markup\Xaml\AvaloniaRuntimeXamlLoader,
     Media\Imaging\Bitmap,
-    Interactivity\RoutedEventArgs
+    Interactivity\RoutedEventArgs,
+    Layout\HorizontalAlignment
 };
 
 use System\{Uri};
@@ -31,7 +32,7 @@ use Pchp\Core\PhpValue;
 
 
 class MainWindow extends UxWindow {
-
+    
      public function __construct() {
 
 
@@ -88,7 +89,16 @@ class MainWindow extends UxWindow {
         $StackPanel->Children->Add($image);
         $StackPanel->Children->Add($button);
         $DockPanel1->Children->Add($UxListBox);
-
+        /*
+         $class_vars = get_class_vars(get_class($this));
+         $i = 0;
+         foreach ($class_vars as $name => $value) {
+             if(!strpos($name, "Property")) {
+                 $UxListBox->Items[$i] = $name;
+                 $i++;
+             }
+         }*/
+        $this->Test();
      }
 
 }
