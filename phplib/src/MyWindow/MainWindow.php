@@ -9,6 +9,9 @@ use Apf\{
     Controls\UxButton,
     Controls\UxDockPanel,
     Controls\UxListBox,
+    Controls\UxNumericUpDown,
+    Controls\Primitives\UxToggleButton,
+    Controls\UxCheckBox,
     Controls\UxWindow,
     Controls\UxImage};
 
@@ -18,8 +21,10 @@ use Avalonia\{
     Controls\StackPanel,
     Markup\Xaml\AvaloniaRuntimeXamlLoader,
     Media\Imaging\Bitmap,
+    Media\Brushes,
     Interactivity\RoutedEventArgs,
-    Layout\HorizontalAlignment
+    Layout\HorizontalAlignment,
+    Layout\VerticalAlignment
 };
 
 use System\{Uri};
@@ -37,10 +42,11 @@ class MainWindow extends UxWindow {
 
 
          $DockPanel1 = new UxDockPanel();
-
          $StackPanel = new StackPanel();
+         
 
          $button = new UxButton();
+         $button->HorizontalAlignment = HorizontalAlignment::Center;
          $button->Content = "Ñìåíèòü ïî èíäåêñó";
 
 
@@ -89,6 +95,17 @@ class MainWindow extends UxWindow {
         $StackPanel->Children->Add($image);
         $StackPanel->Children->Add($button);
         $DockPanel1->Children->Add($UxListBox);
+        
+        $UxNumericUpDown = new UxNumericUpDown();
+        
+        $UxNumericValueChanged = function(UxNumericUpDown $UxNumericUpDown , RoutedEventArgs $e ) {
+           $this->Title = $UxNumericUpDown->Value;
+        };
+        
+        $UxNumericUpDown->Listener->Add(UxNumericUpDown::$ValueChangedEvent, "ValueChangedEvent", $UxNumericValueChanged);
+     
+        $StackPanel->Children->Add($UxNumericUpDown);
+        
         /*
          $class_vars = get_class_vars(get_class($this));
          $i = 0;
@@ -98,7 +115,6 @@ class MainWindow extends UxWindow {
                  $i++;
              }
          }*/
-        $this->Test();
      }
 
 }
