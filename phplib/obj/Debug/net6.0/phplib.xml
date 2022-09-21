@@ -2,8 +2,6 @@
 <doc>
 <assembly><name>phplib</name></assembly>
 <members>
-<member name="T:MyWindow.Button">
-</member>
 <member name="T:MyWindow.MainWindow">
 </member>
 <member name="M:MyWindow.MainWindow.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">

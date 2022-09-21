@@ -27,17 +27,16 @@ use Avalonia\{
     Layout\VerticalAlignment
 };
 
-use System\{Uri};
+use System\{
+    Uri,
+    EventArgs
+};
 
 use Pchp\Core\PhpValue;
 
 //$file = AssetLoader::Open(new Uri($assets[3]));
 //$loader = AvaloniaRuntimeXamlLoader::Parse($file);
 //$loader->Show();
-
-class Button extends  UxButton{
-
-}
 
 class MainWindow extends UxWindow {
     
@@ -110,20 +109,26 @@ class MainWindow extends UxWindow {
         $StackPanel->Children->Add($UxNumericUpDown);
 
 
-        $UxRadioButton = new UxRadioButton();
-         $StackPanel->Children->Add($UxRadioButton);
-
-         /*$class_vars = get_class_vars(get_class(new Button()));
-
+         //ѕолучение ивентов окна
+         $class_vars = get_class_vars(get_class($this));
          $i = 0;
-
          foreach ($class_vars as $name => $value) {
              if(strpos($name, "Event")) {
                  $UxListBox->Items[$i] = $name;
                  $this->Title = $name;
                  $i++;
              }
-         }*/
+         }
+
+         //—рабатывает при закрытии окна (внутреннее событие)
+         $OnClosed = function (UxWindow $window, EventArgs $e ) {
+            $newWindow = new UxWindow();
+            $newWindow->Show();
+         };
+
+         $this->OnClosed("OnClosed", $OnClosed );
+
+
      }
 
 }
