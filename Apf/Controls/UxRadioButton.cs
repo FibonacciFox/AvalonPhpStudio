@@ -7,8 +7,7 @@ namespace Apf.Controls;
 
 public class UxRadioButton : RadioButton, IStyleable
 {
-    [PhpHidden]
-    Type IStyleable.StyleKey => typeof(Button);
+    [PhpHidden] Type IStyleable.StyleKey => typeof(RadioButton);
     
     /// <summary>
     /// События  <see cref="UxContentControl.Listener"/>

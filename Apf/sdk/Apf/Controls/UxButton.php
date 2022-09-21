@@ -29,12 +29,4 @@ class UxButton
     {
     }
 
-    /**
-     * @param string $string  eventTag - тэг по которому будут отслеживаться события.
-     * @param \Closure $param
-     * @return void
-     */
-    public function On(string $string, \Closure $param) : void {
-
-    }
 }

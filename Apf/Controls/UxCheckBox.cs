@@ -10,7 +10,6 @@ namespace Apf.Controls;
 /// </summary>
 public class UxCheckBox : UxToggleButton, IStyleable
 {
-    [PhpHidden]
-    Type IStyleable.StyleKey => typeof(CheckBox);
+    [PhpHidden] Type IStyleable.StyleKey => typeof(CheckBox);
 
 }

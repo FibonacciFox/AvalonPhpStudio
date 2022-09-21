@@ -10,8 +10,7 @@ namespace Apf.Controls.Primitives
     /// </summary>
     public class UxToggleButton : ToggleButton , IStyleable
     {
-        [PhpHidden]
-        Type IStyleable.StyleKey => typeof(ToggleButton);
+        [PhpHidden] Type IStyleable.StyleKey => typeof(ToggleButton);
         
         /// <summary>
         /// События  <see cref="UxContentControl.Listener"/>

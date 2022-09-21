@@ -11,7 +11,7 @@ use Apf\{
     Controls\UxListBox,
     Controls\UxNumericUpDown,
     Controls\Primitives\UxToggleButton,
-    Controls\UxCheckBox,
+    Controls\UxRadioButton,
     Controls\UxWindow,
     Controls\UxImage};
 
@@ -35,6 +35,9 @@ use Pchp\Core\PhpValue;
 //$loader = AvaloniaRuntimeXamlLoader::Parse($file);
 //$loader->Show();
 
+class Button extends  UxButton{
+
+}
 
 class MainWindow extends UxWindow {
     
@@ -80,7 +83,7 @@ class MainWindow extends UxWindow {
          // http://reference.avaloniaui.net/api/Avalonia.Controls/Button/#Events
 
          //Add([любой ивент], [Id для именования события], [анонимная функция])
-         $button->Listener->Add(UxButton::$ClickEvent, "Id", $OnImageChangeIndex);
+         $button->Listener->Add(UxButton::$ClickEvent, "OnImageChangeIndex", $OnImageChangeIndex);
 
          //Для понимания как это работает посмотрите UxEvents.cs.
          //Чтобы события у компонента работали, нужно обернуть в класс UxНазвание компонента.
@@ -102,16 +105,22 @@ class MainWindow extends UxWindow {
            $this->Title = $UxNumericUpDown->Value;
         };
         
-        $UxNumericUpDown->Listener->Add(UxNumericUpDown::$ValueChangedEvent, "ValueChangedEvent", $UxNumericValueChanged);
+        $UxNumericUpDown->Listener->Add(UxNumericUpDown::$ValueChangedEvent, "UxNumericValueChanged", $UxNumericValueChanged);
      
         $StackPanel->Children->Add($UxNumericUpDown);
-        
-        /*
-         $class_vars = get_class_vars(get_class($this));
+
+
+        $UxRadioButton = new UxRadioButton();
+         $StackPanel->Children->Add($UxRadioButton);
+
+         /*$class_vars = get_class_vars(get_class(new Button()));
+
          $i = 0;
+
          foreach ($class_vars as $name => $value) {
-             if(!strpos($name, "Property")) {
+             if(strpos($name, "Event")) {
                  $UxListBox->Items[$i] = $name;
+                 $this->Title = $name;
                  $i++;
              }
          }*/

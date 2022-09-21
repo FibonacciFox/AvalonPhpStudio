@@ -7,8 +7,7 @@ namespace Apf.Controls;
 
 public class UxNumericUpDown: NumericUpDown, IStyleable
 {
-    [PhpHidden]
-    Type IStyleable.StyleKey => typeof(NumericUpDown);
+    [PhpHidden] Type IStyleable.StyleKey => typeof(NumericUpDown);
 
     /// <summary>
     /// События  <see cref="UxContentControl.Listener"/>
