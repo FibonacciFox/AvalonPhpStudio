@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/src/MyWindow/MainWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/src/MyWindow/MainWindow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +125,7 @@
       <workItem from="1663162655929" duration="11842000" />
       <workItem from="1663517826483" duration="7261000" />
       <workItem from="1663681526780" duration="10068000" />
-      <workItem from="1663764735058" duration="377000" />
+      <workItem from="1663764735058" duration="595000" />
     </task>
     <servers />
   </component>
