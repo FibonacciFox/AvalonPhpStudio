@@ -1,4 +1,5 @@
-﻿using Avalonia.Controls;
+﻿using Apf.Interactivity;
+using Avalonia.Controls;
 using Avalonia.Styling;
 using Pchp.Core;
 
@@ -8,7 +9,7 @@ public class UxNumericUpDown: NumericUpDown, IStyleable
 {
     [PhpHidden]
     Type IStyleable.StyleKey => typeof(NumericUpDown);
-    
+
     /// <summary>
     /// События  <see cref="UxContentControl.Listener"/>
     /// </summary>

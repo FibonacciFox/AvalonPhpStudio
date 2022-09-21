@@ -1,4 +1,5 @@
-﻿using Avalonia;
+﻿using Apf.Interactivity;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using Pchp.Core;
@@ -8,6 +9,7 @@ namespace Apf.Controls;
     /// <summary>
     /// Displays <see cref="UxContentControl.Content"/> according to a <see cref="FuncDataTemplate"/>.
     /// </summary>
+
     public class UxContentControl : ContentControl
 {
         

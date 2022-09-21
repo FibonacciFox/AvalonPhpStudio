@@ -1,16 +1,8 @@
 ﻿#nullable disable
 
-using System.Windows.Input;
-using Avalonia;
+using Apf.Interactivity;
 using Avalonia.Controls;
-using Avalonia.Controls.Metadata;
-using Avalonia.Controls.Primitives;
-using Avalonia.Data;
-using Avalonia.Input;
-using Avalonia.Interactivity;
-using Avalonia.LogicalTree;
 using Avalonia.Styling;
-using Avalonia.VisualTree;
 using Pchp.Core;
 
 namespace Apf.Controls
@@ -36,8 +28,7 @@ namespace Apf.Controls
     /// </summary>
     public class UxButton : Button, IStyleable
     {
-        [PhpHidden]
-        Type IStyleable.StyleKey => typeof(Button);
+        [PhpHidden] Type IStyleable.StyleKey => typeof(Button);
 
         /// <summary>
         /// События  <see cref="UxContentControl.Listener"/>
@@ -48,6 +39,5 @@ namespace Apf.Controls
         {
             Listener = new UxEvents(this);
         }
-        
     }
 }

@@ -2,8 +2,7 @@
 using Avalonia.Interactivity;
 using Pchp.Core;
 
-namespace Apf;
-
+namespace Apf.Interactivity;
 
 
 public class UxEvents
