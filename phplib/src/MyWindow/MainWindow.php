@@ -58,7 +58,7 @@ class MainWindow extends UxWindow {
 
          $assets = AssetLoader::GetAssets(new Uri("avares://phplib/Assets"));
          $UxListBox = new UxListBox();
-         //$UxListBox->Items = $assets;
+         $UxListBox->Items = $assets;
          $UxListBox->SelectedIndex = 0;
          $Avatar = AssetLoader::Open($assets[0]);
          $image->Source = new UxBitmap( $Avatar );
