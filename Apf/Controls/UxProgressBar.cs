@@ -5,16 +5,16 @@ using Pchp.Core;
 
 namespace Apf.Controls;
 
-public class UxRadioButton : RadioButton, IStyleable
+public class UxProgressBar : ProgressBar, IStyleable
 {
-    [PhpHidden] Type IStyleable.StyleKey => typeof(RadioButton);
-    
     /// <summary>
-    /// События  <see cref="UxRadioButton.Listener"/>
+    /// События  <see cref="UxProgressBar.Listener"/>
     /// </summary>
+    [PhpHidden] Type IStyleable.StyleKey => typeof(ProgressBar);
+        
     public UxEvents Listener;
     
-    public UxRadioButton()
+    public UxProgressBar()
     {
         Listener = new UxEvents(this);
     }

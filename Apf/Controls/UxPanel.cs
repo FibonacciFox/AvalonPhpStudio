@@ -7,7 +7,7 @@ public class UxPanel : Panel
 {
     
     /// <summary>
-    /// События  <see cref="UxContentControl.Listener"/>
+    /// События  <see cref="UxPanel.Listener"/>
     /// </summary>
     public UxEvents Listener;
 

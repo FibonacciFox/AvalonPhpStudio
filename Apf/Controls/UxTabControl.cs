@@ -5,17 +5,18 @@ using Pchp.Core;
 
 namespace Apf.Controls;
 
-public class UxRadioButton : RadioButton, IStyleable
+public class UxTabControl : TabControl, IStyleable
 {
-    [PhpHidden] Type IStyleable.StyleKey => typeof(RadioButton);
+    [PhpHidden] Type IStyleable.StyleKey => typeof(TabControl);
     
     /// <summary>
-    /// События  <see cref="UxRadioButton.Listener"/>
+    /// События  <see cref="UxTabControl.Listener"/>
     /// </summary>
     public UxEvents Listener;
     
-    public UxRadioButton()
+    public UxTabControl()
     {
         Listener = new UxEvents(this);
     }
+    
 }

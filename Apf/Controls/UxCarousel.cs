@@ -3,16 +3,15 @@ using Avalonia.Controls;
 
 namespace Apf.Controls;
 
-public class UxDockPanel : DockPanel
+public class UxCarousel : Carousel
 {
     /// <summary>
-    /// События  <see cref="UxDockPanel.Listener"/>
+    /// События  <see cref="UxCarousel.Listener"/>
     /// </summary>
     public UxEvents Listener;
 
-    public UxDockPanel()
+    public UxCarousel()
     {
         Listener = new UxEvents(this);
     }
-
 }

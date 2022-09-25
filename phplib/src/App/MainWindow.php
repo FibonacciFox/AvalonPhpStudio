@@ -12,6 +12,7 @@ use Apf\{
     Controls\UxNumericUpDown,
     Controls\Primitives\UxToggleButton,
     Controls\UxRadioButton,
+    Controls\UxTabControl,
     Controls\UxWindow,
     Controls\UxImage};
 
@@ -108,6 +109,7 @@ class MainWindow extends UxWindow {
      
         $StackPanel->Children->Add($UxNumericUpDown);
 
+
         /*
          //Получение ивентов окна
          $class_vars = get_class_vars(get_class($this));
@@ -126,8 +128,7 @@ class MainWindow extends UxWindow {
          };
 
          //$this->OnClosing("OnClosed", $OnClosing );
-
-
+         
      }
 
 }
