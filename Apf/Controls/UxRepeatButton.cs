@@ -7,7 +7,7 @@ namespace Apf.Controls;
 
 public class UxRepeatButton : RepeatButton, IStyleable
 {
-    [PhpHidden] Type IStyleable.StyleKey => typeof(Button);
+    [PhpHidden] Type IStyleable.StyleKey => typeof(RepeatButton);
     
     /// <summary>
     /// События  <see cref="UxContentControl.Listener"/>

@@ -1,6 +1,6 @@
 <?php
 
-namespace MyWindow;
+namespace App;
 
 use Apf\{
 

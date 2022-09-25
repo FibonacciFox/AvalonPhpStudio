@@ -2,9 +2,16 @@
 <doc>
 <assembly><name>phplib</name></assembly>
 <members>
-<member name="T:MyWindow.MainWindow">
+<member name="T:App.AssetViewerForm">
 </member>
-<member name="M:MyWindow.MainWindow.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<member name="M:App.AssetViewerForm.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<summary>
+Initializes the class without calling its '__construct' method.
+</summary>
+</member>
+<member name="T:App.MainWindow">
+</member>
+<member name="M:App.MainWindow.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
 <summary>
 Initializes the class without calling its '__construct' method.
 </summary>
