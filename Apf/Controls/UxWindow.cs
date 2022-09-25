@@ -1,7 +1,5 @@
-﻿using System.ComponentModel;
-using Apf.Interactivity;
+﻿using Apf.Interactivity;
 using Avalonia.Controls;
-using Avalonia.Interactivity;
 using Pchp.Core;
 
 
@@ -33,6 +31,7 @@ public class UxWindow : Window
     public void OnClosing(PhpValue key, Closure closure)
     {
         Listener.Dictionary[key] = (sender, args) => closure?.__invoke(PhpValue.FromClass(sender), PhpValue.FromClass(args));
-       // Closing += Listener.Dictionary[key];
+        Closing += (sender, args) =>  Listener.Dictionary[key](sender, args);
+           
     }
 }

@@ -9,7 +9,7 @@ namespace Apf.Controls;
 public class UxListBox : ListBox, IStyleable
 {
     [PhpHidden] Type IStyleable.StyleKey => typeof(ListBox);
-
+        
     public UxEvents Listener;
     
     public UxListBox()
@@ -17,10 +17,4 @@ public class UxListBox : ListBox, IStyleable
         Listener = new UxEvents(this);
     }
     
-    public new PhpArray Items
-    {
-        get => (PhpArray) base.Items;
-        set => base.Items =  value;
-        
-    }
 }

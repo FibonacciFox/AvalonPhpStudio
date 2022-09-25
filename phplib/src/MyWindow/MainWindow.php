@@ -58,7 +58,7 @@ class MainWindow extends UxWindow {
 
          $assets = AssetLoader::GetAssets(new Uri("avares://phplib/Assets"));
          $UxListBox = new UxListBox();
-         $UxListBox->Items = $assets;
+         //$UxListBox->Items = $assets;
          $UxListBox->SelectedIndex = 0;
          $Avatar = AssetLoader::Open($assets[0]);
          $image->Source = new UxBitmap( $Avatar );
@@ -108,25 +108,24 @@ class MainWindow extends UxWindow {
      
         $StackPanel->Children->Add($UxNumericUpDown);
 
-
+        /*
          //ѕолучение ивентов окна
          $class_vars = get_class_vars(get_class($this));
          $i = 0;
          foreach ($class_vars as $name => $value) {
              if(strpos($name, "Event")) {
-                 $UxListBox->Items[$i] = $name;
+                 $UxListBox->Items->Add($name);
                  $this->Title = $name;
                  $i++;
              }
-         }
+         }*/
 
          //—рабатывает при закрытии окна (внутреннее событие)
-         $OnClosed = function (UxWindow $window, EventArgs $e ) {
-            $newWindow = new UxWindow();
-            $newWindow->Show();
+         $OnClosing = function (UxWindow $window, EventArgs $e ) {
+             $e->Cancel = true;
          };
 
-         $this->OnClosed("OnClosed", $OnClosed );
+         //$this->OnClosing("OnClosed", $OnClosing );
 
 
      }
