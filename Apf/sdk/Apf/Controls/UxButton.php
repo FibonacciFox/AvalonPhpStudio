@@ -11,9 +11,9 @@ class UxButton
 
     /**
      * Gets or sets the content to display.
-     * @var object UxContent
+     * @var mixed UxContent
      */
-    public object $Content;
+    public mixed $Content;
 
     /**
      * Gets or sets the string content to display.

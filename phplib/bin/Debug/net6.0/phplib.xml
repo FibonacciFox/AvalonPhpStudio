@@ -2,16 +2,44 @@
 <doc>
 <assembly><name>phplib</name></assembly>
 <members>
-<member name="T:App.AssetViewerForm">
+<member name="T:App.MainWindow">
 </member>
-<member name="M:App.AssetViewerForm.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<member name="M:App.MainWindow.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
 <summary>
 Initializes the class without calling its '__construct' method.
 </summary>
 </member>
-<member name="T:App.MainWindow">
+<member name="T:App.MainWindow1">
 </member>
-<member name="M:App.MainWindow.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<member name="M:App.MainWindow1.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<summary>
+Initializes the class without calling its '__construct' method.
+</summary>
+</member>
+<member name="T:App.ButtonAddItemToList">
+</member>
+<member name="M:App.ButtonAddItemToList.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<summary>
+Initializes the class without calling its '__construct' method.
+</summary>
+</member>
+<member name="T:App.ButtonRemoveItemList">
+</member>
+<member name="M:App.ButtonRemoveItemList.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<summary>
+Initializes the class without calling its '__construct' method.
+</summary>
+</member>
+<member name="T:App.TextBoxContentItem">
+</member>
+<member name="M:App.TextBoxContentItem.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
+<summary>
+Initializes the class without calling its '__construct' method.
+</summary>
+</member>
+<member name="T:App.ToDoListForm">
+</member>
+<member name="M:App.ToDoListForm.#ctor(Pchp.Core.Context,Pchp.Core.DummyFieldsOnlyCtor)">
 <summary>
 Initializes the class without calling its '__construct' method.
 </summary>
