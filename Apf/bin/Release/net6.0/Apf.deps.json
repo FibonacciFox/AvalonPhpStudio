@@ -9,6 +9,7 @@
       "Apf/1.0.0": {
         "dependencies": {
           "Avalonia": "0.10.18",
+          "Avalonia.Markup.Xaml.Loader": "0.10.18",
           "Peachpie.Runtime": "1.0.24"
         },
         "runtime": {
@@ -100,6 +101,18 @@
           }
         }
       },
+      "Avalonia.Markup.Xaml.Loader/0.10.18": {
+        "dependencies": {
+          "Avalonia": "0.10.18",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Markup.Xaml.Loader.dll": {
+            "assemblyVersion": "0.10.18.0",
+            "fileVersion": "0.10.18.0"
+          }
+        }
+      },
       "Avalonia.Remote.Protocol/0.10.18": {
         "runtime": {
           "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {
@@ -177,6 +190,13 @@
       "sha512": "sha512-hA7US1I75f+ztOyqFWXdzkyJDU9FxcMktfmnmey2uPb+9Cn2GSTU+/7t08CMAyMxuCBpWjlOwkdCZh1cPFWHpg==",
       "path": "avalonia/0.10.18",
       "hashPath": "avalonia.0.10.18.nupkg.sha512"
+    },
+    "Avalonia.Markup.Xaml.Loader/0.10.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hKS0Ghzv/L36LizRr0jw6JjJlPBwqIIIMdXK7cOcdX+rDD5aAFDFP73UvLZHw52W26BzL3aQLJ49XE6eNA+QrQ==",
+      "path": "avalonia.markup.xaml.loader/0.10.18",
+      "hashPath": "avalonia.markup.xaml.loader.0.10.18.nupkg.sha512"
     },
     "Avalonia.Remote.Protocol/0.10.18": {
       "type": "package",

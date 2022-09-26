@@ -5,35 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Apf/Controls/UxStackPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apf/Controls/UxTextBox.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phplib/src/App/MainWindow1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phplib/src/App/ToDoListForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/bin/Release/net6.0/win-x86/Apf.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/bin/Release/net6.0/win-x86/Apf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/bin/Release/net6.0/win-x86/Apf.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/original.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/original.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/references" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/ref/Apf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/refint/Apf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/win-x64/Apf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/win-x64/Apf.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/win-x64/phplib.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/win-x64/phplib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/win-x64/phplib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/win-x64/phplib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/Avalonia/original.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/Avalonia/original.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/Avalonia/references" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/Avalonia/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.msbuildproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.msbuildproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.msbuildproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.msbuildproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/win-x64/phplib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxButton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.msbuildproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/src/App/AssetViewerForm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/src/App/MainWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/src/App/MainWindow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/references" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/ref/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/ref/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/refint/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Release/net6.0/refint/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/Avalonia.Php.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/Avalonia.Php.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Release/net6.0/phplib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/references" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.msbuildproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.msbuildproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.msbuildproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.msbuildproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.msbuildproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Release/net6.0/phplib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/phplib.msbuildproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/phplib.msbuildproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/phplib.msbuildproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/phplib.msbuildproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phplib/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +195,7 @@
       <workItem from="1663681526780" duration="10068000" />
       <workItem from="1663764735058" duration="14760000" />
       <workItem from="1664123018403" duration="5693000" />
-      <workItem from="1664200724244" duration="10036000" />
+      <workItem from="1664200724244" duration="12270000" />
     </task>
     <servers />
   </component>

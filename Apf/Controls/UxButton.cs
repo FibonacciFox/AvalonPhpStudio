@@ -16,7 +16,7 @@ namespace Apf.Controls
         [PhpHidden] Type IStyleable.StyleKey => typeof(Button);
 
         /// <summary>
-        /// События  <see cref="UxContentControl.Listener"/>
+        /// События  <see cref="UxButton.Listener"/>
         /// </summary>
         public UxEvents Listener;
 

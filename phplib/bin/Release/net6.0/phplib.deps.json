@@ -12,7 +12,6 @@
           "Avalonia": "0.10.18",
           "Avalonia.Desktop": "0.10.18",
           "Avalonia.Markup.Xaml.Loader": "0.10.18",
-          "Avalonia.Php": "1.0.0",
           "Peachpie.App": "1.0.24"
         },
         "runtime": {
@@ -1921,20 +1920,11 @@
       "Apf/1.0.0": {
         "dependencies": {
           "Avalonia": "0.10.18",
-          "Peachpie.Runtime": "1.0.24"
-        },
-        "runtime": {
-          "Apf.dll": {}
-        }
-      },
-      "Avalonia.Php/1.0.0": {
-        "dependencies": {
-          "Avalonia": "0.10.18",
           "Avalonia.Markup.Xaml.Loader": "0.10.18",
           "Peachpie.Runtime": "1.0.24"
         },
         "runtime": {
-          "Avalonia.Php.dll": {}
+          "Apf.dll": {}
         }
       }
     }
@@ -3101,11 +3091,6 @@
       "hashPath": "tmds.dbus.0.9.0.nupkg.sha512"
     },
     "Apf/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Avalonia.Php/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
