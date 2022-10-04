@@ -10,7 +10,7 @@
         "dependencies": {
           "Avalonia": "0.10.18",
           "Avalonia.Markup.Xaml.Loader": "0.10.18",
-          "Peachpie.Runtime": "1.0.24"
+          "Peachpie.Runtime": "1.1.0"
         },
         "runtime": {
           "Apf.dll": {}
@@ -21,7 +21,7 @@
           "Avalonia.Remote.Protocol": "0.10.18",
           "JetBrains.Annotations": "10.3.0",
           "System.ComponentModel.Annotations": "4.5.0",
-          "System.Memory": "4.5.4",
+          "System.Memory": "4.5.3",
           "System.Reactive": "5.0.0",
           "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.ValueTuple": "4.5.0"
@@ -142,22 +142,21 @@
       },
       "Microsoft.NETCore.Platforms/1.0.1": {},
       "Microsoft.NETCore.Targets/1.0.1": {},
-      "Peachpie.Runtime/1.0.24": {
+      "Peachpie.Runtime/1.1.0": {
         "dependencies": {
           "Microsoft.Extensions.ObjectPool": "5.0.3",
-          "System.Memory": "4.5.4",
           "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.Lightweight": "4.7.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Peachpie.Runtime.dll": {
-            "assemblyVersion": "1.0.24.0",
-            "fileVersion": "1.0.24.0"
+          "lib/net5.0/Peachpie.Runtime.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {},
-      "System.Memory/4.5.4": {},
+      "System.Memory/4.5.3": {},
       "System.Reactive/5.0.0": {
         "runtime": {
           "lib/net5.0/System.Reactive.dll": {
@@ -233,12 +232,12 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
     },
-    "Peachpie.Runtime/1.0.24": {
+    "Peachpie.Runtime/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Rpu6IzDYGy9hXRZvm0Zop7gJfmAfJsWXKdkS1egZeRk4HI6o4J2oTYTby3W7TqcKwL2UcPJvf6mp3Wo9kDcJRw==",
-      "path": "peachpie.runtime/1.0.24",
-      "hashPath": "peachpie.runtime.1.0.24.nupkg.sha512"
+      "sha512": "sha512-QFLlzxO6A/gm3DyGgJIDc0RkQ15ZBk+qnbR02025t8xklMb4SXv5PxKq3jCjFipaA40nr72heIjQXYYKhH7tfg==",
+      "path": "peachpie.runtime/1.1.0",
+      "hashPath": "peachpie.runtime.1.1.0.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",
@@ -247,12 +246,12 @@
       "path": "system.componentmodel.annotations/4.5.0",
       "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
     },
-    "System.Memory/4.5.4": {
+    "System.Memory/4.5.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
-      "path": "system.memory/4.5.4",
-      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
     "System.Reactive/5.0.0": {
       "type": "package",
