@@ -1,19 +1,15 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
- public bool $AutoScrollToSelectedItem;
- public int $SelectedIndex;
- public object $SelectedItem;
- public bool $IsTextSearchEnabled;
- public IItemContainerGenerator $ItemContainerGenerator;
- public IEnumerable $Items;
- public int $ItemCount;
- public mixed $ItemsPanel;
- public IDataTemplate $ItemTemplate;
- public IItemsPresenter $Presenter;
+public class UxProgressBar {
+ public float $IndeterminateStartingOffset;
+ public float $IndeterminateEndingOffset;
+ public ProgressBar+ProgressBarTemplateProperties $TemplateProperties;
+ public bool $IsIndeterminate;
+ public bool $ShowProgressText;
+ public Orientation $Orientation;
+ public float $Minimum;
+ public float $Maximum;
+ public float $Value;
+ public float $SmallChange;
+ public float $LargeChange;
  public IBrush $Background;
  public IBrush $BorderBrush;
  public Thickness $BorderThickness;

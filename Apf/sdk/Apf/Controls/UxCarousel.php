@@ -1,9 +1,6 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
+public class UxCarousel {
+ public bool $IsVirtualized;
+ public IPageTransition $PageTransition;
  public bool $AutoScrollToSelectedItem;
  public int $SelectedIndex;
  public object $SelectedItem;

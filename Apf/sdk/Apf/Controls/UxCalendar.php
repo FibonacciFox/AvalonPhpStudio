@@ -1,19 +1,15 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
- public bool $AutoScrollToSelectedItem;
- public int $SelectedIndex;
- public object $SelectedItem;
- public bool $IsTextSearchEnabled;
- public IItemContainerGenerator $ItemContainerGenerator;
- public IEnumerable $Items;
- public int $ItemCount;
- public mixed $ItemsPanel;
- public IDataTemplate $ItemTemplate;
- public IItemsPresenter $Presenter;
+public class UxCalendar {
+ public DayOfWeek $FirstDayOfWeek;
+ public bool $IsTodayHighlighted;
+ public IBrush $HeaderBackground;
+ public CalendarMode $DisplayMode;
+ public CalendarSelectionMode $SelectionMode;
+ public mixed $SelectedDate;
+ public SelectedDatesCollection $SelectedDates;
+ public DateTime $DisplayDate;
+ public mixed $DisplayDateStart;
+ public CalendarBlackoutDatesCollection $BlackoutDates;
+ public mixed $DisplayDateEnd;
  public IBrush $Background;
  public IBrush $BorderBrush;
  public Thickness $BorderThickness;

@@ -1,139 +1,104 @@
-<?php
-
-namespace Apf\Controls;
-
-
-use Avalonia\Interactivity\RoutedEvent;
-
-/**
- * Class UXWindow
- * @package Apf\Controls
- * @packages Controls, Avalonia
- *
- */
-class UxWindow
-{
-    /**
-     * Gets the acheived WindowTransparencyLevel that the platform was able to provide.
-     * @var Level
-     */
-    public Level $ActualLevel;
-
-
-    /**
-     * Whether an auto-size operation is in progress.
-     * @var bool
-     */
-    public bool $AutoSizing;
-
-    /**
-     * Gets or sets the brush used to draw the control's background.
-     * @var IBrush
-     */
-    public IBrush $Background;
-
-    /**
-     * Gets or sets the brush used to draw the control's border.
-     * @var IBrush
-     */
-    public IBrush $BorderBrush;
-
-    /**
-     * Gets or sets the thickness of the control's border.
-     * @var Thickness
-     */
-    public Thickness $BorderThickness;
-
-    /**
-     * Gets the bounds of the control relative to its parent.
-     * @var Rect
-     */
-    public Rect $Bounds;
-
-    /**
-     * Enables or disables resizing of the window.
-     * Note that if HasSystemDecorations is set to
-     * False then this property has no effect and
-     * should be treated as a recommendation for
-     * the user setting HasSystemDecorations.
-     * @var bool
-     */
-    public bool $CanResize;
-
-    /**
-     * Gets or sets the styled element's classes.
-     * @var Classes
-     */
-    public Classes $Classes;
-
-    /**
-     * Gets or sets the client size of the window.
-     * @var Size
-     */
-    public Size $ClientSize;
-
-    /**
-     * The window title
-     * @var string
-     */
-    public string $Title;
-
-    /**
-     * Gets or sets the geometry clip for this visual.
-     * @var Geometry
-     */
-    public Geometry $Clip;
-
-    /**
-     * Gets or sets a value indicating whether the control should be clipped to its bounds.
-     * @var bool
-     */
-    public bool $ClipToBounds;
-    /**
-     * --EN--
-     * Fired when the window is activated.
-     * --RU--
-     * Срабатывает, когда окно активировано.
-     * @var RoutedEvent
-     */
-    public static RoutedEvent $ActivatedEvent;
-
-    /**
-     * --EN--
-     * Raised when the styled element is attached to a rooted logical tree.
-     * --RU--
-     * Возникает, когда стилизованный элемент присоединен к корневому логическому дереву.
-     * @var RoutedEvent
-     */
-    public static RoutedEvent $AttachedToLogicalTreeEvent;
-
-    /**
-     * --EN--
-     * Raised when the control is attached to a rooted visual tree.
-     * --RU--
-     * Вызывается, когда элемент управления прикреплен к корневому визуальному дереву.
-     * @var RoutedEvent
-     */
-    public static RoutedEvent $AttachedToVisualTreeEvent;
-
-    /**
-     * --EN--
-     * Fired when the window is closed.
-     * --RU--
-     * Вызывается, когда окно закрыто.
-     * @var EventHandler<CancelEventArgs>
-     */
-    // public static EventHandler<CancelEventArgs> $Closed;
-
-    /**
-     * --EN--
-     * Fired before a window is closed.
-     * --RU--
-     * Вызывается перед закрытием окна.
-     * @var RoutedEvent
-     */
-    // EventHandler<CancelEventArgs> public static RoutedEvent $Closing;
-
-
-
+public class UxWindow {
+ public IWindowImpl $PlatformImpl;
+ public mixed $OwnedWindows;
+ public SizeToContent $SizeToContent;
+ public string $Title;
+ public bool $HasSystemDecorations;
+ public bool $ExtendClientAreaToDecorationsHint;
+ public ExtendClientAreaChromeHints $ExtendClientAreaChromeHints;
+ public float $ExtendClientAreaTitleBarHeightHint;
+ public bool $IsExtendedIntoWindowDecorations;
+ public Thickness $WindowDecorationMargin;
+ public Thickness $OffScreenMargin;
+ public SystemDecorations $SystemDecorations;
+ public bool $ShowActivated;
+ public bool $ShowInTaskbar;
+ public WindowState $WindowState;
+ public bool $CanResize;
+ public WindowIcon $Icon;
+ public WindowStartupLocation $WindowStartupLocation;
+ public PixelPoint $Position;
+ public IWindowBaseImpl $PlatformImpl;
+ public bool $IsActive;
+ public Screens $Screens;
+ public WindowBase $Owner;
+ public bool $Topmost;
+ public Size $ClientSize;
+ public mixed $FrameSize;
+ public WindowTransparencyLevel $TransparencyLevelHint;
+ public WindowTransparencyLevel $ActualTransparencyLevel;
+ public IBrush $TransparencyBackgroundFallback;
+ public ILayoutManager $LayoutManager;
+ public ITopLevelImpl $PlatformImpl;
+ public IRenderer $Renderer;
+ public object $Content;
+ public IDataTemplate $ContentTemplate;
+ public IContentPresenter $Presenter;
+ public HorizontalAlignment $HorizontalContentAlignment;
+ public VerticalAlignment $VerticalContentAlignment;
+ public IBrush $Background;
+ public IBrush $BorderBrush;
+ public Thickness $BorderThickness;
+ public CornerRadius $CornerRadius;
+ public FontFamily $FontFamily;
+ public float $FontSize;
+ public FontStyle $FontStyle;
+ public FontWeight $FontWeight;
+ public IBrush $Foreground;
+ public Thickness $Padding;
+ public IControlTemplate $Template;
+ public mixed $FocusAdorner;
+ public DataTemplates $DataTemplates;
+ public ContextMenu $ContextMenu;
+ public FlyoutBase $ContextFlyout;
+ public object $Tag;
+ public IControl $Parent;
+ public bool $Focusable;
+ public bool $IsEnabled;
+ public Cursor $Cursor;
+ public bool $IsKeyboardFocusWithin;
+ public bool $IsFocused;
+ public bool $IsHitTestVisible;
+ public bool $IsPointerOver;
+ public bool $IsTabStop;
+ public bool $IsEffectivelyEnabled;
+ public int $TabIndex;
+ public mixed $KeyBindings;
+ public GestureRecognizerCollection $GestureRecognizers;
+ public float $Width;
+ public float $Height;
+ public float $MinWidth;
+ public float $MaxWidth;
+ public float $MinHeight;
+ public float $MaxHeight;
+ public Thickness $Margin;
+ public HorizontalAlignment $HorizontalAlignment;
+ public VerticalAlignment $VerticalAlignment;
+ public Size $DesiredSize;
+ public bool $IsMeasureValid;
+ public bool $IsArrangeValid;
+ public bool $UseLayoutRounding;
+ public Rect $Bounds;
+ public mixed $TransformedBounds;
+ public bool $ClipToBounds;
+ public Geometry $Clip;
+ public bool $IsEffectivelyVisible;
+ public bool $IsVisible;
+ public float $Opacity;
+ public IBrush $OpacityMask;
+ public ITransform $RenderTransform;
+ public RelativePoint $RenderTransformOrigin;
+ public int $ZIndex;
+ public string $Name;
+ public Classes $Classes;
+ public object $DataContext;
+ public bool $IsInitialized;
+ public Styles $Styles;
+ public IResourceDictionary $Resources;
+ public ITemplatedControl $TemplatedParent;
+ public IStyledElement $Parent;
+ public IClock $Clock;
+ public Transitions $Transitions;
+ public object $Item;
+ public IBinding $Item;
 }

@@ -22,3 +22,15 @@ C:\Users\Administrator\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.dll
 C:\Users\Administrator\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\refint\Apf.dll
 C:\Users\Administrator\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.pdb
 C:\Users\Administrator\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\ref\Apf.dll
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\bin\Debug\net6.0\Apf.deps.json
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\bin\Debug\net6.0\Apf.dll
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\bin\Debug\net6.0\Apf.pdb
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.csproj.AssemblyReference.cache
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.AssemblyInfoInputs.cache
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.AssemblyInfo.cs
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.csproj.CoreCompileInputs.cache
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.dll
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\refint\Apf.dll
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\Apf.pdb
+C:\Users\Fibonacci\Desktop\AvalonPhpStudio\Apf\obj\Debug\net6.0\ref\Apf.dll

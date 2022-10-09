@@ -1,19 +1,20 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
- public bool $AutoScrollToSelectedItem;
- public int $SelectedIndex;
- public object $SelectedItem;
- public bool $IsTextSearchEnabled;
- public IItemContainerGenerator $ItemContainerGenerator;
- public IEnumerable $Items;
- public int $ItemCount;
- public mixed $ItemsPanel;
- public IDataTemplate $ItemTemplate;
- public IItemsPresenter $Presenter;
+public class UxNumericUpDown {
+ public bool $AllowSpin;
+ public Location $ButtonSpinnerLocation;
+ public bool $ShowButtonSpinner;
+ public bool $ClipValueToMinMax;
+ public CultureInfo $CultureInfo;
+ public string $FormatString;
+ public float $Increment;
+ public bool $IsReadOnly;
+ public float $Maximum;
+ public float $Minimum;
+ public NumberStyles $ParsingNumberStyle;
+ public string $Text;
+ public float $Value;
+ public string $Watermark;
+ public HorizontalAlignment $HorizontalContentAlignment;
+ public VerticalAlignment $VerticalContentAlignment;
  public IBrush $Background;
  public IBrush $BorderBrush;
  public Thickness $BorderThickness;

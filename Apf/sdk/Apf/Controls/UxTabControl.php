@@ -1,9 +1,10 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
+public class UxTabControl {
+ public HorizontalAlignment $HorizontalContentAlignment;
+ public VerticalAlignment $VerticalContentAlignment;
+ public Dock $TabStripPlacement;
+ public IDataTemplate $ContentTemplate;
+ public object $SelectedContent;
+ public IDataTemplate $SelectedContentTemplate;
  public bool $AutoScrollToSelectedItem;
  public int $SelectedIndex;
  public object $SelectedItem;

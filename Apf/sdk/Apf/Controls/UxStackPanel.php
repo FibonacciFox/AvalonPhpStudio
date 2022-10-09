@@ -1,30 +1,8 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
- public bool $AutoScrollToSelectedItem;
- public int $SelectedIndex;
- public object $SelectedItem;
- public bool $IsTextSearchEnabled;
- public IItemContainerGenerator $ItemContainerGenerator;
- public IEnumerable $Items;
- public int $ItemCount;
- public mixed $ItemsPanel;
- public IDataTemplate $ItemTemplate;
- public IItemsPresenter $Presenter;
+public class UxStackPanel {
+ public float $Spacing;
+ public Orientation $Orientation;
+ public Controls $Children;
  public IBrush $Background;
- public IBrush $BorderBrush;
- public Thickness $BorderThickness;
- public CornerRadius $CornerRadius;
- public FontFamily $FontFamily;
- public float $FontSize;
- public FontStyle $FontStyle;
- public FontWeight $FontWeight;
- public IBrush $Foreground;
- public Thickness $Padding;
- public IControlTemplate $Template;
  public mixed $FocusAdorner;
  public DataTemplates $DataTemplates;
  public ContextMenu $ContextMenu;

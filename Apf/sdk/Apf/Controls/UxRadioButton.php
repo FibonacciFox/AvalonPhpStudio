@@ -1,19 +1,20 @@
-public class UxListBox {
- public IScrollable $Scroll;
- public IList $SelectedItems;
- public ISelectionModel $Selection;
- public SelectionMode $SelectionMode;
- public ItemVirtualizationMode $VirtualizationMode;
- public bool $AutoScrollToSelectedItem;
- public int $SelectedIndex;
- public object $SelectedItem;
- public bool $IsTextSearchEnabled;
- public IItemContainerGenerator $ItemContainerGenerator;
- public IEnumerable $Items;
- public int $ItemCount;
- public mixed $ItemsPanel;
- public IDataTemplate $ItemTemplate;
- public IItemsPresenter $Presenter;
+public class UxRadioButton {
+ public string $GroupName;
+ public mixed $IsChecked;
+ public bool $IsThreeState;
+ public ClickMode $ClickMode;
+ public ICommand $Command;
+ public KeyGesture $HotKey;
+ public object $CommandParameter;
+ public bool $IsDefault;
+ public bool $IsCancel;
+ public bool $IsPressed;
+ public FlyoutBase $Flyout;
+ public object $Content;
+ public IDataTemplate $ContentTemplate;
+ public IContentPresenter $Presenter;
+ public HorizontalAlignment $HorizontalContentAlignment;
+ public VerticalAlignment $VerticalContentAlignment;
  public IBrush $Background;
  public IBrush $BorderBrush;
  public Thickness $BorderThickness;
