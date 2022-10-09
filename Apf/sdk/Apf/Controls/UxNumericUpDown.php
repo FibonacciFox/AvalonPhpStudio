@@ -1,4 +1,8 @@
-public class UxNumericUpDown {
+<?php
+
+namespace Apf\Controls;
+
+class UxNumericUpDown {
  public bool $AllowSpin;
  public Location $ButtonSpinnerLocation;
  public bool $ShowButtonSpinner;
@@ -75,9 +79,9 @@ public class UxNumericUpDown {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

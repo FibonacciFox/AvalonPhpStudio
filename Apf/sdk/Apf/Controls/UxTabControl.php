@@ -1,4 +1,8 @@
-public class UxTabControl {
+<?php
+
+namespace Apf\Controls;
+
+class UxTabControl {
  public HorizontalAlignment $HorizontalContentAlignment;
  public VerticalAlignment $VerticalContentAlignment;
  public Dock $TabStripPlacement;
@@ -75,9 +79,9 @@ public class UxTabControl {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

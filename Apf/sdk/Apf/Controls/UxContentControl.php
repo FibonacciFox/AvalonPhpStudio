@@ -1,4 +1,8 @@
-public class UxContentControl {
+<?php
+
+namespace Apf\Controls;
+
+class UxContentControl {
  public PhpValue $Item;
  public object $Content;
  public IDataTemplate $ContentTemplate;
@@ -65,9 +69,9 @@ public class UxContentControl {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
- public object $Item;
- public IBinding $Item;
+ //public object $Item;
+ //public IBinding $Item;
 }

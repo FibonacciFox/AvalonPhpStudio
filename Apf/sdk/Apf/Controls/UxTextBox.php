@@ -1,4 +1,8 @@
-public class UxTextBox {
+<?php
+
+namespace Apf\Controls;
+
+class UxTextBox {
  public bool $AcceptsReturn;
  public bool $AcceptsTab;
  public int $CaretIndex;
@@ -87,9 +91,9 @@ public class UxTextBox {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

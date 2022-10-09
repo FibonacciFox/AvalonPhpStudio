@@ -1,4 +1,8 @@
-public class UxImage {
+<?php
+
+namespace Apf\Controls;
+
+class UxImage {
  public IImage $Source;
  public Stretch $Stretch;
  public StretchDirection $StretchDirection;
@@ -51,9 +55,9 @@ public class UxImage {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

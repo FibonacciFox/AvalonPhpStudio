@@ -1,4 +1,8 @@
-public class UxListBox {
+<?php
+
+namespace Apf\Controls;
+
+class UxListBox {
  public IScrollable $Scroll;
  public IList $SelectedItems;
  public ISelectionModel $Selection;
@@ -74,9 +78,9 @@ public class UxListBox {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

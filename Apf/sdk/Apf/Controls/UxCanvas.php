@@ -1,4 +1,8 @@
-public class UxCanvas {
+<?php
+
+namespace Apf\Controls;
+
+class UxCanvas {
  public Controls $Children;
  public IBrush $Background;
  public mixed $FocusAdorner;
@@ -50,9 +54,9 @@ public class UxCanvas {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

@@ -1,4 +1,8 @@
-public class UxStackPanel {
+<?php
+
+namespace Apf\Controls;
+
+class UxStackPanel {
  public float $Spacing;
  public Orientation $Orientation;
  public Controls $Children;
@@ -52,9 +56,9 @@ public class UxStackPanel {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

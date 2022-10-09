@@ -1,4 +1,8 @@
-public class UxCarousel {
+<?php
+
+namespace Apf\Controls;
+
+class UxCarousel {
  public bool $IsVirtualized;
  public IPageTransition $PageTransition;
  public bool $AutoScrollToSelectedItem;
@@ -71,9 +75,9 @@ public class UxCarousel {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

@@ -1,4 +1,8 @@
-public class UxRadioButton {
+<?php
+
+namespace Apf\Controls;
+
+class UxRadioButton {
  public string $GroupName;
  public mixed $IsChecked;
  public bool $IsThreeState;
@@ -75,9 +79,9 @@ public class UxRadioButton {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

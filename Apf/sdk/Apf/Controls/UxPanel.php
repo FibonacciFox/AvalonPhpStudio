@@ -1,4 +1,8 @@
-public class UxPanel {
+<?php
+
+namespace Apf\Controls;
+
+class UxPanel {
  public Controls $Children;
  public IBrush $Background;
  public mixed $FocusAdorner;
@@ -50,9 +54,9 @@ public class UxPanel {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

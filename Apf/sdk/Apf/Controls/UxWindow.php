@@ -1,4 +1,8 @@
-public class UxWindow {
+<?php
+
+namespace Apf\Controls;
+
+class UxWindow {
  public IWindowImpl $PlatformImpl;
  public mixed $OwnedWindows;
  public SizeToContent $SizeToContent;
@@ -18,7 +22,7 @@ public class UxWindow {
  public WindowIcon $Icon;
  public WindowStartupLocation $WindowStartupLocation;
  public PixelPoint $Position;
- public IWindowBaseImpl $PlatformImpl;
+ //public IWindowBaseImpl $PlatformImpl;
  public bool $IsActive;
  public Screens $Screens;
  public WindowBase $Owner;
@@ -29,7 +33,7 @@ public class UxWindow {
  public WindowTransparencyLevel $ActualTransparencyLevel;
  public IBrush $TransparencyBackgroundFallback;
  public ILayoutManager $LayoutManager;
- public ITopLevelImpl $PlatformImpl;
+ //public ITopLevelImpl $PlatformImpl;
  public IRenderer $Renderer;
  public object $Content;
  public IDataTemplate $ContentTemplate;
@@ -96,9 +100,9 @@ public class UxWindow {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

@@ -1,4 +1,8 @@
-public class UxDockPanel {
+<?php
+
+namespace Apf\Controls;
+
+class UxDockPanel {
  public bool $LastChildFill;
  public Controls $Children;
  public IBrush $Background;
@@ -51,9 +55,9 @@ public class UxDockPanel {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

@@ -1,4 +1,8 @@
-public class UxCalendar {
+<?php
+
+namespace Apf\Controls;
+
+class UxCalendar {
  public DayOfWeek $FirstDayOfWeek;
  public bool $IsTodayHighlighted;
  public IBrush $HeaderBackground;
@@ -70,9 +74,9 @@ public class UxCalendar {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

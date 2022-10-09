@@ -1,4 +1,8 @@
-public class UxButton {
+<?php
+
+namespace Apf\Controls;
+
+class UxButton {
  public ClickMode $ClickMode;
  public ICommand $Command;
  public KeyGesture $HotKey;
@@ -72,9 +76,9 @@ public class UxButton {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

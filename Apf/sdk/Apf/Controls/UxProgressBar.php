@@ -1,7 +1,11 @@
-public class UxProgressBar {
+<?php
+
+namespace Apf\Controls;
+
+class UxProgressBar {
  public float $IndeterminateStartingOffset;
  public float $IndeterminateEndingOffset;
- public ProgressBar+ProgressBarTemplateProperties $TemplateProperties;
+ //public ProgressBar+ProgressBarTemplateProperties $TemplateProperties;
  public bool $IsIndeterminate;
  public bool $ShowProgressText;
  public Orientation $Orientation;
@@ -70,9 +74,9 @@ public class UxProgressBar {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }

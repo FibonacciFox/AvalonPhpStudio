@@ -1,4 +1,8 @@
-public class UxRepeatButton {
+<?php
+
+namespace Apf\Controls;
+
+class UxRepeatButton {
  public int $Interval;
  public int $Delay;
  public ClickMode $ClickMode;
@@ -74,9 +78,9 @@ public class UxRepeatButton {
  public Styles $Styles;
  public IResourceDictionary $Resources;
  public ITemplatedControl $TemplatedParent;
- public IStyledElement $Parent;
+ //public IStyledElement $Parent;
  public IClock $Clock;
  public Transitions $Transitions;
  public object $Item;
- public IBinding $Item;
+ //public IBinding $Item;
 }
