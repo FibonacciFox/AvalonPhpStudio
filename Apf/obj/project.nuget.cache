@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DtUizVbsY1rc6hFbzugXhupG/RLjiWUnP2W7z3v2gjUytMKGDO6h0l1xLYXQlNUoUHmtpDtaQ3FIs7lSfo1ZqA==",
+  "dgSpecHash": "0wd2QRFzbsW14ToKaNKGK/iTLk76FxVtl520Q8zuRLc4ba0igcIykpKd1ECiZP3kY3nbxvmglEMv8fIxhwUBvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fibonacci\\Desktop\\AvalonPhpStudio\\Apf\\Apf.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "C:\\Users\\Fibonacci\\.nuget\\packages\\microsoft.extensions.objectpool\\5.0.3\\microsoft.extensions.objectpool.5.0.3.nupkg.sha512",
     "C:\\Users\\Fibonacci\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\Fibonacci\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
-    "C:\\Users\\Fibonacci\\.nuget\\packages\\peachpie.runtime\\1.1.0\\peachpie.runtime.1.1.0.nupkg.sha512",
+    "C:\\Users\\Fibonacci\\.nuget\\packages\\peachpie.runtime\\1.1.2\\peachpie.runtime.1.1.2.nupkg.sha512",
     "C:\\Users\\Fibonacci\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\Fibonacci\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Fibonacci\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",

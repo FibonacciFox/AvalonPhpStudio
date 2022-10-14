@@ -10,7 +10,7 @@
         "dependencies": {
           "Avalonia": "0.10.18",
           "Avalonia.Markup.Xaml.Loader": "0.10.18",
-          "Peachpie.Runtime": "1.1.0"
+          "Peachpie.Runtime": "1.1.2"
         },
         "runtime": {
           "Apf.dll": {}
@@ -142,7 +142,7 @@
       },
       "Microsoft.NETCore.Platforms/1.0.1": {},
       "Microsoft.NETCore.Targets/1.0.1": {},
-      "Peachpie.Runtime/1.1.0": {
+      "Peachpie.Runtime/1.1.2": {
         "dependencies": {
           "Microsoft.Extensions.ObjectPool": "5.0.3",
           "System.Reflection.Emit": "4.7.0",
@@ -150,8 +150,8 @@
         },
         "runtime": {
           "lib/net5.0/Peachpie.Runtime.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
           }
         }
       },
@@ -232,12 +232,12 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
     },
-    "Peachpie.Runtime/1.1.0": {
+    "Peachpie.Runtime/1.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QFLlzxO6A/gm3DyGgJIDc0RkQ15ZBk+qnbR02025t8xklMb4SXv5PxKq3jCjFipaA40nr72heIjQXYYKhH7tfg==",
-      "path": "peachpie.runtime/1.1.0",
-      "hashPath": "peachpie.runtime.1.1.0.nupkg.sha512"
+      "sha512": "sha512-CJgPHyaECtREfgArfliyxYGh4/b5x5GTSH38gBWRXX1PbyCFig6+rs3UViXzThHx8HS1mFnJpKtgDBMfJ/h/uQ==",
+      "path": "peachpie.runtime/1.1.2",
+      "hashPath": "peachpie.runtime.1.1.2.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",

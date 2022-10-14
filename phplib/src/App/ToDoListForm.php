@@ -68,7 +68,6 @@ class ToDoListForm extends UxWindow
         $this->Title = "ToDoList";
         $this->Width = 800;
         $this->Height = 440;
-
         $this->Content = $this->ToDoListContentPanel;
     }
 

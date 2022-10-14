@@ -14,44 +14,116 @@
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "lib/netcoreapp2.0/Avalonia.Animation.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Base.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Controls.dll": {},
-          "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {},
-          "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Input.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Layout.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Markup.dll": {},
-          "lib/netcoreapp2.0/Avalonia.MicroCom.dll": {},
-          "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Styling.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Visuals.dll": {},
-          "lib/netcoreapp2.0/Avalonia.dll": {}
+          "lib/netcoreapp2.0/Avalonia.Animation.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Base.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Controls.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Input.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Layout.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Markup.dll": {
+            "related": ".Xaml.xml;.xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.MicroCom.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Styling.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Visuals.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.dll": {
+            "related": ".Animation.xml;.Base.xml;.Controls.xml;.DesignerSupport.xml;.DesktopRuntime.xml;.Dialogs.xml;.Input.xml;.Interactivity.xml;.Layout.xml;.Markup.Xaml.xml;.Markup.xml;.MicroCom.xml;.OpenGL.xml;.Styling.xml;.Themes.Default.xml;.Themes.Fluent.xml;.Visuals.xml;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.0/Avalonia.Animation.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Base.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Controls.dll": {},
-          "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {},
-          "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Input.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Layout.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Markup.dll": {},
-          "lib/netcoreapp2.0/Avalonia.MicroCom.dll": {},
-          "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Styling.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Visuals.dll": {},
-          "lib/netcoreapp2.0/Avalonia.dll": {}
+          "lib/netcoreapp2.0/Avalonia.Animation.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Base.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Controls.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Input.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Layout.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Markup.dll": {
+            "related": ".Xaml.xml;.xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.MicroCom.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Styling.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.Visuals.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp2.0/Avalonia.dll": {
+            "related": ".Animation.xml;.Base.xml;.Controls.xml;.DesignerSupport.xml;.DesktopRuntime.xml;.Dialogs.xml;.Input.xml;.Interactivity.xml;.Layout.xml;.Markup.Xaml.xml;.Markup.xml;.MicroCom.xml;.OpenGL.xml;.Styling.xml;.Themes.Default.xml;.Themes.Fluent.xml;.Visuals.xml;.xml"
+          }
         },
         "build": {
           "buildTransitive/Avalonia.props": {},
@@ -65,19 +137,27 @@
           "System.Reflection.Emit": "4.3.0"
         },
         "compile": {
-          "lib/netstandard2.0/Avalonia.Markup.Xaml.Loader.dll": {}
+          "lib/netstandard2.0/Avalonia.Markup.Xaml.Loader.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Avalonia.Markup.Xaml.Loader.dll": {}
+          "lib/netstandard2.0/Avalonia.Markup.Xaml.Loader.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Avalonia.Remote.Protocol/0.10.18": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
+          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
+          "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {
+            "related": ".xml"
+          }
         }
       },
       "JetBrains.Annotations/10.3.0": {
@@ -86,19 +166,27 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "lib/netstandard1.0/JetBrains.Annotations.dll": {}
+          "lib/netstandard1.0/JetBrains.Annotations.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.0/JetBrains.Annotations.dll": {}
+          "lib/netstandard1.0/JetBrains.Annotations.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.ObjectPool/5.0.3": {
         "type": "package",
         "compile": {
-          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {}
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {}
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.0.1": {
@@ -119,7 +207,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Peachpie.Runtime/1.1.0": {
+      "Peachpie.Runtime/1.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.ObjectPool": "5.0.3",
@@ -127,10 +215,14 @@
           "System.Reflection.Emit.Lightweight": "4.7.0"
         },
         "compile": {
-          "lib/net5.0/Peachpie.Runtime.dll": {}
+          "lib/net5.0/Peachpie.Runtime.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/Peachpie.Runtime.dll": {}
+          "lib/net5.0/Peachpie.Runtime.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -154,10 +246,14 @@
       "System.Reactive/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/System.Reactive.dll": {}
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/System.Reactive.dll": {}
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net5.0/_._": {}
@@ -188,16 +284,22 @@
           "Microsoft.NETCore.Targets": "1.0.1"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {}
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ValueTuple/4.5.0": {
@@ -440,16 +542,16 @@
         "runtime.json"
       ]
     },
-    "Peachpie.Runtime/1.1.0": {
-      "sha512": "QFLlzxO6A/gm3DyGgJIDc0RkQ15ZBk+qnbR02025t8xklMb4SXv5PxKq3jCjFipaA40nr72heIjQXYYKhH7tfg==",
+    "Peachpie.Runtime/1.1.2": {
+      "sha512": "CJgPHyaECtREfgArfliyxYGh4/b5x5GTSH38gBWRXX1PbyCFig6+rs3UViXzThHx8HS1mFnJpKtgDBMfJ/h/uQ==",
       "type": "package",
-      "path": "peachpie.runtime/1.1.0",
+      "path": "peachpie.runtime/1.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/Peachpie.Runtime.dll",
         "lib/net5.0/Peachpie.Runtime.xml",
-        "peachpie.runtime.1.1.0.nupkg.sha512",
+        "peachpie.runtime.1.1.2.nupkg.sha512",
         "peachpie.runtime.nuspec"
       ]
     },
@@ -870,7 +972,7 @@
     "net6.0": [
       "Avalonia >= 0.10.18",
       "Avalonia.Markup.Xaml.Loader >= 0.10.18",
-      "Peachpie.Runtime >= 1.1.0"
+      "Peachpie.Runtime >= 1.1.2"
     ]
   },
   "packageFolders": {
@@ -927,7 +1029,7 @@
           },
           "Peachpie.Runtime": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.1.2, )"
           }
         },
         "imports": [
