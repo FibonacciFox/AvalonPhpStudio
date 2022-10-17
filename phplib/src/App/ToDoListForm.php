@@ -87,14 +87,14 @@ class ToDoListForm extends UxWindow
 
     private function setControlEvents(){
         //При нажатии кнопки добавляем текст в список задач
-        $this->ButtonAddItemToList->Listener->Add($this->ButtonAddItemToList::$ClickEvent,"AddTextToListBox", function(ButtonAddItemToList $button, RoutedEventArgs $e){
+        $this->ButtonAddItemToList->Listener->Add(UxButton::$ClickEvent,"AddTextToListBox", function(ButtonAddItemToList $button, RoutedEventArgs $e){
             if($this->TextBoxContentItem->Text != ""){
                 $this->ToDoList->Items->Add(trim($this->TextBoxContentItem->Text));
                 $this->TextBoxContentItem->Text = "";
             }
         });
         //При нажатии кнопки удаляет выбранный текст из списка задач
-        $this->ButtonRemoveItemList->Listener->Add($this->ButtonRemoveItemList::$ClickEvent,"AddTextToListBox", function(ButtonRemoveItemList $button, RoutedEventArgs $e){
+        $this->ButtonRemoveItemList->Listener->Add(UxButton::$ClickEvent,"AddTextToListBox", function(ButtonRemoveItemList $button, RoutedEventArgs $e){
             if($this->ToDoList->SelectedIndex != -1){
                 $this->ToDoList->Items->RemoveAt($this->ToDoList->SelectedIndex);
             }

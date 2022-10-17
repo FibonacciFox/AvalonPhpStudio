@@ -1,21 +1,21 @@
 ﻿<Project Sdk="Peachpie.NET.Sdk/1.1.2">
-	<PropertyGroup>
-		<OutputType>Library</OutputType>
-		<TargetFramework>net6.0</TargetFramework>
-		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-	</PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="0.10.18" />
-		<PackageReference Include="Avalonia.Desktop" Version="0.10.18" />
-		<PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="0.10.18" />
-	</ItemGroup>
-	<ItemGroup>
-		<Compile Include="**/*.php" />
-	</ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\Apf\Apf.csproj" />
-	</ItemGroup>
-	<ItemGroup>
-		<AvaloniaResource Include="Assets\**" />
-	</ItemGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.18" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.18" />
+    <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="0.10.18" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Apf\Apf.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
 </Project>

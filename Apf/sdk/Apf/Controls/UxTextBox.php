@@ -2,98 +2,166 @@
 
 namespace Apf\Controls;
 
+
+/**
+ * @property UxEvents $Listener [description] 
+ * @property bool $AcceptsReturn [description] 
+ * @property bool $AcceptsTab [description] 
+ * @property int $CaretIndex [description] 
+ * @property bool $IsReadOnly [description] 
+ * @property Char $PasswordChar [description] 
+ * @property IBrush $SelectionBrush [description] 
+ * @property IBrush $SelectionForegroundBrush [description] 
+ * @property IBrush $CaretBrush [description] 
+ * @property int $SelectionStart [description] 
+ * @property int $SelectionEnd [description] 
+ * @property int $MaxLength [description] 
+ * @property string $Text [description] 
+ * @property string $SelectedText [description] 
+ * @property HorizontalAlignment $HorizontalContentAlignment [description] 
+ * @property VerticalAlignment $VerticalContentAlignment [description] 
+ * @property TextAlignment $TextAlignment [description] 
+ * @property string $Watermark [description] 
+ * @property bool $UseFloatingWatermark [description] 
+ * @property object $InnerLeftContent [description] 
+ * @property object $InnerRightContent [description] 
+ * @property bool $RevealPassword [description] 
+ * @property TextWrapping $TextWrapping [description] 
+ * @property string $NewLine [description] 
+ * @property-read bool $CanCut [description] 
+ * @property-read bool $CanCopy [description] 
+ * @property-read bool $CanPaste [description] 
+ * @property bool $IsUndoEnabled [description] 
+ * @property int $UndoLimit [description] 
+ * @property IBrush $Background [description] 
+ * @property IBrush $BorderBrush [description] 
+ * @property Thickness $BorderThickness [description] 
+ * @property CornerRadius $CornerRadius [description] 
+ * @property FontFamily $FontFamily [description] 
+ * @property float $FontSize [description] 
+ * @property FontStyle $FontStyle [description] 
+ * @property FontWeight $FontWeight [description] 
+ * @property IBrush $Foreground [description] 
+ * @property Thickness $Padding [description] 
+ * @property IControlTemplate $Template [description] 
+ * @property mixed $FocusAdorner [description] 
+ * @property-read DataTemplates $DataTemplates [description] 
+ * @property ContextMenu $ContextMenu [description] 
+ * @property FlyoutBase $ContextFlyout [description] 
+ * @property object $Tag [description] 
+ * @property-read IControl $Parent [description] 
+ * @property bool $Focusable [description] 
+ * @property bool $IsEnabled [description] 
+ * @property Cursor $Cursor [description] 
+ * @property bool $IsKeyboardFocusWithin [description] 
+ * @property-read bool $IsFocused [description] 
+ * @property bool $IsHitTestVisible [description] 
+ * @property bool $IsPointerOver [description] 
+ * @property bool $IsTabStop [description] 
+ * @property-read bool $IsEffectivelyEnabled [description] 
+ * @property int $TabIndex [description] 
+ * @property-read mixed $KeyBindings [description] 
+ * @property-read GestureRecognizerCollection $GestureRecognizers [description] 
+ * @property float $Width [description] 
+ * @property float $Height [description] 
+ * @property float $MinWidth [description] 
+ * @property float $MaxWidth [description] 
+ * @property float $MinHeight [description] 
+ * @property float $MaxHeight [description] 
+ * @property Thickness $Margin [description] 
+ * @property HorizontalAlignment $HorizontalAlignment [description] 
+ * @property VerticalAlignment $VerticalAlignment [description] 
+ * @property-read Size $DesiredSize [description] 
+ * @property-read bool $IsMeasureValid [description] 
+ * @property-read bool $IsArrangeValid [description] 
+ * @property bool $UseLayoutRounding [description] 
+ * @property Rect $Bounds [description] 
+ * @property-read mixed $TransformedBounds [description] 
+ * @property bool $ClipToBounds [description] 
+ * @property Geometry $Clip [description] 
+ * @property-read bool $IsEffectivelyVisible [description] 
+ * @property bool $IsVisible [description] 
+ * @property float $Opacity [description] 
+ * @property IBrush $OpacityMask [description] 
+ * @property ITransform $RenderTransform [description] 
+ * @property RelativePoint $RenderTransformOrigin [description] 
+ * @property int $ZIndex [description] 
+ * @property string $Name [description] 
+ * @property Classes $Classes [description] 
+ * @property object $DataContext [description] 
+ * @property-read bool $IsInitialized [description] 
+ * @property-read Styles $Styles [description] 
+ * @property IResourceDictionary $Resources [description] 
+ * @property ITemplatedControl $TemplatedParent [description] 
+ * @property-read IStyledElement $Parent [description] 
+ * @property IClock $Clock [description] 
+ * @property Transitions $Transitions [description] 
+ * @property object $Item [description] 
+ * @property IBinding $Item [description] 
+ */
 class UxTextBox {
- public bool $AcceptsReturn;
- public bool $AcceptsTab;
- public int $CaretIndex;
- public bool $IsReadOnly;
- public Char $PasswordChar;
- public IBrush $SelectionBrush;
- public IBrush $SelectionForegroundBrush;
- public IBrush $CaretBrush;
- public int $SelectionStart;
- public int $SelectionEnd;
- public int $MaxLength;
- public string $Text;
- public string $SelectedText;
- public HorizontalAlignment $HorizontalContentAlignment;
- public VerticalAlignment $VerticalContentAlignment;
- public TextAlignment $TextAlignment;
- public string $Watermark;
- public bool $UseFloatingWatermark;
- public object $InnerLeftContent;
- public object $InnerRightContent;
- public bool $RevealPassword;
- public TextWrapping $TextWrapping;
- public string $NewLine;
- public bool $CanCut;
- public bool $CanCopy;
- public bool $CanPaste;
- public bool $IsUndoEnabled;
- public int $UndoLimit;
- public IBrush $Background;
- public IBrush $BorderBrush;
- public Thickness $BorderThickness;
- public CornerRadius $CornerRadius;
- public FontFamily $FontFamily;
- public float $FontSize;
- public FontStyle $FontStyle;
- public FontWeight $FontWeight;
- public IBrush $Foreground;
- public Thickness $Padding;
- public IControlTemplate $Template;
- public mixed $FocusAdorner;
- public DataTemplates $DataTemplates;
- public ContextMenu $ContextMenu;
- public FlyoutBase $ContextFlyout;
- public object $Tag;
- public IControl $Parent;
- public bool $Focusable;
- public bool $IsEnabled;
- public Cursor $Cursor;
- public bool $IsKeyboardFocusWithin;
- public bool $IsFocused;
- public bool $IsHitTestVisible;
- public bool $IsPointerOver;
- public bool $IsTabStop;
- public bool $IsEffectivelyEnabled;
- public int $TabIndex;
- public mixed $KeyBindings;
- public GestureRecognizerCollection $GestureRecognizers;
- public float $Width;
- public float $Height;
- public float $MinWidth;
- public float $MaxWidth;
- public float $MinHeight;
- public float $MaxHeight;
- public Thickness $Margin;
- public HorizontalAlignment $HorizontalAlignment;
- public VerticalAlignment $VerticalAlignment;
- public Size $DesiredSize;
- public bool $IsMeasureValid;
- public bool $IsArrangeValid;
- public bool $UseLayoutRounding;
- public Rect $Bounds;
- public mixed $TransformedBounds;
- public bool $ClipToBounds;
- public Geometry $Clip;
- public bool $IsEffectivelyVisible;
- public bool $IsVisible;
- public float $Opacity;
- public IBrush $OpacityMask;
- public ITransform $RenderTransform;
- public RelativePoint $RenderTransformOrigin;
- public int $ZIndex;
- public string $Name;
- public Classes $Classes;
- public object $DataContext;
- public bool $IsInitialized;
- public Styles $Styles;
- public IResourceDictionary $Resources;
- public ITemplatedControl $TemplatedParent;
- //public IStyledElement $Parent;
- public IClock $Clock;
- public Transitions $Transitions;
- public object $Item;
- //public IBinding $Item;
+
+
+ public static Event $CopyingToClipboardEvent;
+
+ public static Event $CuttingToClipboardEvent;
+
+ public static Event $PastingFromClipboardEvent;
+
+ public static Event $TemplateAppliedEvent;
+
+ public static Event $ContextRequestedEvent;
+
+ public static Event $GotFocusEvent;
+
+ public static Event $LostFocusEvent;
+
+ public static Event $KeyDownEvent;
+
+ public static Event $KeyUpEvent;
+
+ public static Event $TextInputEvent;
+
+ public static Event $TextInputMethodClientRequestedEvent;
+
+ public static Event $TextInputOptionsQueryEvent;
+
+ public static Event $PointerEnterEvent;
+
+ public static Event $PointerLeaveEvent;
+
+ public static Event $PointerMovedEvent;
+
+ public static Event $PointerPressedEvent;
+
+ public static Event $PointerReleasedEvent;
+
+ public static Event $PointerCaptureLostEvent;
+
+ public static Event $PointerWheelChangedEvent;
+
+ public static Event $TappedEvent;
+
+ public static Event $DoubleTappedEvent;
+
+ public static Event $EffectiveViewportChangedEvent;
+
+ public static Event $LayoutUpdatedEvent;
+
+ public static Event $AttachedToVisualTreeEvent;
+
+ public static Event $DetachedFromVisualTreeEvent;
+
+ public static Event $AttachedToLogicalTreeEvent;
+
+ public static Event $DetachedFromLogicalTreeEvent;
+
+ public static Event $DataContextChangedEvent;
+
+ public static Event $InitializedEvent;
+
+ public static Event $ResourcesChangedEvent;
+
+ public static Event $PropertyChangedEvent;
+
 }
