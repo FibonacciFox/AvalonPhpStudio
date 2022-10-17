@@ -96,7 +96,9 @@ class ToDoListForm extends UxWindow
         //При нажатии кнопки удаляет выбранный текст из списка задач
         $this->ButtonRemoveItemList->Listener->Add(UxButton::$ClickEvent,"AddTextToListBox", function(ButtonRemoveItemList $button, RoutedEventArgs $e){
             if($this->ToDoList->SelectedIndex != -1){
+                $index = $this->ToDoList->SelectedIndex;
                 $this->ToDoList->Items->RemoveAt($this->ToDoList->SelectedIndex);
+                $this->ToDoList->SelectedIndex = $index - 1;
             }
         });
 
