@@ -1919,6 +1919,7 @@
       "Apf/1.0.0": {
         "dependencies": {
           "Avalonia": "0.10.18",
+          "Avalonia.Desktop": "0.10.18",
           "Avalonia.Markup.Xaml.Loader": "0.10.18",
           "Peachpie.Runtime": "1.1.2"
         },

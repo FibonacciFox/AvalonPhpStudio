@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Apf/Applications/Windows/App.axaml" value="AvaloniaApplication/AvaloniaApplication.csproj" />
         <entry key="Apf/MainWindow.axaml" value="Apf/Apf.csproj" />
         <entry key="AvaloniaApplication/App.axaml" value="AvaloniaApplication/AvaloniaApplication.csproj" />
         <entry key="AvaloniaApplication/Form.axaml" value="AvaloniaApplication/AvaloniaApplication.csproj" />

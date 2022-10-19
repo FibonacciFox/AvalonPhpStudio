@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[0.10.18, )"
             },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.10.18, )"
+            },
             "Avalonia.Markup.Xaml.Loader": {
               "target": "Package",
               "version": "[0.10.18, )"
