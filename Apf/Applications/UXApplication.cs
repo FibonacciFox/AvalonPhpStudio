@@ -5,15 +5,15 @@ using Avalonia.Themes.Fluent;
 
 namespace Apf.Applications;
 
-public class UxApp
+public class UXApplication
 {
-    public UxApp(Closure closure)
+    public UXApplication(Closure closure, string[]? args = null)
     {
-        string[]? args;
+        
        
         AppBuilder.Configure<Application>()
             .UsePlatformDetect()
-            .UseFluentTheme(mode: FluentThemeMode.Light)
+            .UseFluentTheme(mode: FluentThemeMode.Dark)
             .StartWithClassicDesktopLifetime(desktop =>
             {
 
@@ -21,7 +21,7 @@ public class UxApp
                 
                 desktop.MainWindow = closer;
                 
-            }, null);
+            }, args);
     }
     
 }

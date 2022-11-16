@@ -1,9 +1,9 @@
 <?php
 
-use Apf\Applications\UxApp;
+use Apf\Applications\UXApplication;
 
-$app = new UxApp( function(){
-    return new MainWindow();
+$app = new UXApplication( function() {
+    return new ToDoListForm();
 });
 
 
