@@ -1,0 +1,28 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.2">
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <StartupObject>App.php</StartupObject>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.0-preview3" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.0-preview3" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0-preview3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="src" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Apf\Apf.csproj" />
+  </ItemGroup>
+  
+</Project>

@@ -34,3 +34,15 @@ C:\Users\Fibonacci\Desktop\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.msbuil
 C:\Users\Fibonacci\Desktop\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.dll
 C:\Users\Fibonacci\Desktop\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.xml
 C:\Users\Fibonacci\Desktop\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.pdb
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\bin\Debug\net6.0\phplib.deps.json
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\bin\Debug\net6.0\phplib.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\bin\Debug\net6.0\phplib.pdb
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\bin\Debug\net6.0\phplib.xml
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\bin\Debug\net6.0\Apf.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\bin\Debug\net6.0\Apf.pdb
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.msbuildproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.msbuildproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.msbuildproj.CopyComplete
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.xml
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\phplib\obj\Debug\net6.0\phplib.pdb

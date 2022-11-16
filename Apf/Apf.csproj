@@ -8,17 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Avalonia" Version="0.10.18" />
-      <PackageReference Include="Avalonia.Desktop" Version="0.10.18" />
-      <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="0.10.18" />
+      <PackageReference Include="Avalonia" Version="11.0.0-preview3" />
+      <PackageReference Include="Avalonia.Desktop" Version="11.0.0-preview3" />
+      <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0-preview3" />
       <PackageReference Include="Peachpie.Runtime" Version="1.1.2" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Update="Applications\Windows\UxApp.axaml.cs">
-        <DependentUpon>App.axaml</DependentUpon>
-        <SubType>Code</SubType>
-      </Compile>
     </ItemGroup>
 
 </Project>

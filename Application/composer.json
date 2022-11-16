@@ -1,0 +1,16 @@
+﻿{
+  "name": "fibonaccifox/application",
+  "description": "Application",
+  "type": "application",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "license": "MIT",
+  "authors": [ { "name": "Maxim Rakov" } ],
+  "autoload": {
+    "psr-4": {
+      "": "src/",
+      "": ""
+    }
+  }
+}

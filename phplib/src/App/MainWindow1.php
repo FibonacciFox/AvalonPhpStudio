@@ -74,7 +74,7 @@ class MainWindow1 extends UxWindow {
              $image->Source = new UxBitmap( $Avatar );
 
              //Передача параметров в Content пока только так PhpValue::FromClass($data);
-             $button->Content = PhpValue::FromClass("Сменить:" . $SelectedIndex);
+             //$button->Content = PhpValue::FromClass("Сменить:" . $SelectedIndex);
 
          };
 
