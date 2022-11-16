@@ -9,7 +9,7 @@ class UxApplication
      * @param string $FluentThemeMode Dark or Light
      * @param array|null $args
      */
-    public function __construct(\Closure $param, string $FluentThemeMode = "Dark", array $args = NULL)
+    public function __construct(\Closure $callback, string $FluentThemeMode = "Dark", array $args = NULL)
     {
     }
 }

@@ -2,9 +2,7 @@
 
 use Apf\Applications\UxApplication;
 
-$args = array("a","b");
-
-$UxApplication = new UxApplication( function() {
+$UxApplication = new UxApplication( callback: function() {
     return new MainWindow();
 }, FluentThemeMode: "Dark");
 
