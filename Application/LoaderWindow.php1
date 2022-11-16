@@ -1,5 +1,5 @@
 ﻿<?php
-
+//Устарело
 namespace AvaloniaPhpRuntimeXamlLoader;
 
 use Avalonia\Controls\Window;
