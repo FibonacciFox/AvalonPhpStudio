@@ -11,13 +11,13 @@ C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\A
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Markup.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.MicroCom.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.OpenGL.dll
-C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Themes.Fluent.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Desktop.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.FreeDesktop.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Native.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Remote.Protocol.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Skia.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Themes.Fluent.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.Win32.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Avalonia.X11.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\BCrypt.Net-Next.dll
@@ -30,6 +30,7 @@ C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\I
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Isopoh.Cryptography.Blake2b.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Isopoh.Cryptography.SecureArray.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\MicroCom.Runtime.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Microsoft.ApplicationInsights.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
@@ -88,6 +89,7 @@ C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\r
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\linux-arm\lib\netstandard2.0\Mono.Posix.NETStandard.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\linux-arm\native\libMonoPosixHelper.so
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\linux-arm64\lib\netstandard2.0\Mono.Posix.NETStandard.dll
@@ -119,6 +121,8 @@ C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\r
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Apf.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\Apf.pdb
@@ -128,7 +132,3 @@ C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\obj\Debug\net6.0\A
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\obj\Debug\net6.0\Application.dll
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
-C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\MicroCom.Runtime.dll
-C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll

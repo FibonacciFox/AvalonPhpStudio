@@ -78,11 +78,11 @@ namespace Apf\Controls;
  * @property-read Styles $Styles [description] 
  * @property IResourceDictionary $Resources [description] 
  * @property ITemplatedControl $TemplatedParent [description] 
- * @property-read IStyledElement $Parent [description] 
+ //* @property-read IStyledElement $Parent [description]
  * @property IClock $Clock [description] 
  * @property Transitions $Transitions [description] 
  * @property object $Item [description] 
- * @property IBinding $Item [description] 
+ //* @property IBinding $Item [description]
  */
 class UxButton {
 

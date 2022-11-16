@@ -1,9 +1,11 @@
 <?php
 
-use Apf\Applications\UXApplication;
+use Apf\Applications\UxApplication;
 
-$app = new UXApplication( function() {
-    return new ToDoListForm();
-});
+$args = array("a","b");
+
+$UxApplication = new UxApplication( function() {
+    return new MainWindow();
+}, FluentThemeMode: "Dark");
 
 

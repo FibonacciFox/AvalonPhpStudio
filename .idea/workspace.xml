@@ -5,20 +5,157 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="Update Php SDK">
-      <change afterPath="$PROJECT_DIR$/Apf/Applications/Windows/App.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apf/Applications/Windows/App.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvalonPhpStudio/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvalonPhpStudio/.idea/avalonia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Applications/UxApplication.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/Apf.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Apf.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/FileContentIndex/9c2facae-a8bc-4de7-b090-9e8ba8e7574b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/FileContentIndex/c140ba23-f03f-4aff-a677-f1cf951adc62.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/v17/.futdcache.v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvalonPhpStudio/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/avalonphpstudio.metadata.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/avalonphpstudio.projects.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharp-php-hybrid.metadata.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharp-php-hybrid.projects.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/FileContentIndex/9eeb6c7e-6107-4805-be92-149e66322993.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/FileContentIndex/b50750d0-2658-4024-a69c-332c15a95a51.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/FileContentIndex/d1b07c97-a1c6-4af1-a8d7-4124ae4aa21e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/FileContentIndex/e84dc961-0e4f-4462-8c0a-b7576ad21d89.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/v17/.futdcache.v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/csharp-php-hybrid/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Applications/UXApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Applications/UxApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/Apf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/win-x86/Apf.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/win-x86/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/bin/Release/net6.0/win-x86/Apf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaApplication/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplication/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/bin/Debug/net6.0/phplib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/phplib/obj/Debug/net6.0/phplib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/_IsIncrementalBuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/ref/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/refint/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Apf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/original.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/original.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/references" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/Avalonia/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/ref/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/refint/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Apf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/Resources.Inputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/original.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/original.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/references" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/Avalonia/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/ref/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/Release/net6.0/win-x86/refint/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxButton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCalendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCalendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCanvas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCanvas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxWindow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.msbuildproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.msbuildproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/LoaderWindow.php1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Apf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Apf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Apf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Apf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/phplib.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/phplib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/Apf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/phplib.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/phplib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/phplib.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/phplib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/win-x64/Apf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/win-x64/Apf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/win-x64/phplib.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/win-x64/phplib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/win-x64/phplib.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Release/net6.0/win-x64/phplib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.msbuildproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.msbuildproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.msbuildproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.msbuildproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.msbuildproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.msbuildproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.msbuildproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net6.0/phplib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/Avalonia/original.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/Avalonia/original.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/Avalonia/references" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/Avalonia/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.msbuildproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.msbuildproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.msbuildproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/phplib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/Avalonia/Resources.Inputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/Avalonia/original.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/Avalonia/original.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/Avalonia/references" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/Avalonia/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.msbuildproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.msbuildproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.msbuildproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.msbuildproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Release/net6.0/win-x64/phplib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/phplib.msbuildproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/phplib.msbuildproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/phplib.msbuildproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvalonPhpStudio.sln.DotSettings.user" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +188,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fibonacci/Desktop/PhpAppn04.09/phplib/src/App&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/pr/AvalonPhpStudio/Application/bin/Debug/net6.0/Application.exe&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,13 +215,13 @@
       <option name="pathToComposerJson" value="$PROJECT_DIR$/phplib/composer.json" />
       <method v="2" />
     </configuration>
-    <configuration name="Run" type="ShConfigurationType" editBeforeRun="true">
+    <configuration name="Run" type="ShConfigurationType" activateToolWindowBeforeRun="false">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net6.0/AvaloniaApplication1.exe" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/Application/bin/Debug/net6.0/Application.exe" />
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="false" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/AvaloniaApplication1/bin/Debug/net6.0" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/Application/bin/Debug/net6.0" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +229,7 @@
       <option name="EXECUTE_SCRIPT_FILE" value="true" />
       <envs />
       <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Build" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Application" />
       </method>
     </configuration>
   </component>
@@ -135,6 +272,8 @@
       <workItem from="1666016439021" duration="44000" />
       <workItem from="1666016815610" duration="520000" />
       <workItem from="1666199962700" duration="598000" />
+      <workItem from="1668611540317" duration="3751000" />
+      <workItem from="1668618044375" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="Update Php SDK">
       <created>1665341572571</created>

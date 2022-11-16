@@ -24,7 +24,7 @@ namespace Apf\Controls;
  * @property WindowIcon $Icon [description] 
  * @property WindowStartupLocation $WindowStartupLocation [description] 
  * @property PixelPoint $Position [description] 
- * @property-read IWindowBaseImpl $PlatformImpl [description] 
+ //* @property-read IWindowBaseImpl $PlatformImpl [description]
  * @property-read bool $IsActive [description] 
  * @property-read Screens $Screens [description] 
  * @property WindowBase $Owner [description] 
@@ -35,7 +35,7 @@ namespace Apf\Controls;
  * @property-read WindowTransparencyLevel $ActualTransparencyLevel [description] 
  * @property IBrush $TransparencyBackgroundFallback [description] 
  * @property-read ILayoutManager $LayoutManager [description] 
- * @property-read ITopLevelImpl $PlatformImpl [description] 
+ //* @property-read ITopLevelImpl $PlatformImpl [description]
  * @property-read IRenderer $Renderer [description] 
  * @property object $Content [description] 
  * @property IDataTemplate $ContentTemplate [description] 
@@ -102,11 +102,11 @@ namespace Apf\Controls;
  * @property-read Styles $Styles [description] 
  * @property IResourceDictionary $Resources [description] 
  * @property ITemplatedControl $TemplatedParent [description] 
- * @property-read IStyledElement $Parent [description] 
+ //* @property-read IStyledElement $Parent [description]
  * @property IClock $Clock [description] 
  * @property Transitions $Transitions [description] 
  * @property object $Item [description] 
- * @property IBinding $Item [description] 
+ //* @property IBinding $Item [description]
  */
 class UxWindow {
 
