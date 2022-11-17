@@ -5,10 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="Update Php SDK">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Apf.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Apf.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apf/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Application.msbuildproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Application.msbuildproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Application.msbuildproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Application.msbuildproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PhpApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhpApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Applications/UxApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/sdk/Apf/Applications/UxApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/ToDoListForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ToDoListForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +154,7 @@
       <workItem from="1666199962700" duration="598000" />
       <workItem from="1668611540317" duration="3751000" />
       <workItem from="1668618044375" duration="2885000" />
+      <workItem from="1668698954759" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="Update Php SDK">
       <created>1665341572571</created>
