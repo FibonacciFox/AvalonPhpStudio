@@ -2,6 +2,34 @@
 
 use Apf\Controls\{ UxWindow, UxButton, UxStackPanel };
 
+use Apf\Applications\UxInputElementEventsExtensions;
+
+trait InputElementEvents {
+    public UxInputElementEventsExtensions $UxInputElementEvents;
+
+    public function InputElementEventsInit(): void
+    {
+        $this->UxInputElementEvents = new UxInputElementEventsExtensions($this);
+    }
+
+    public function OnInputPointerEntered(\Closure $callback): void
+    {
+        $this->UxInputElementEvents->OnPointerEntered($callback);
+    }
+}
+
+class UxTraitButton extends UxButton {
+    use InputElementEvents;
+
+    public function __construct()
+    {
+        $this->InputElementEventsInit();
+
+        $this->OnInputPointerEntered( function(){
+            echo "Hi!";
+        });
+    }
+}
 
 class MainWindow extends UxWindow {
     
@@ -14,7 +42,7 @@ class MainWindow extends UxWindow {
 
         $UxStackPanel =  new UxStackPanel();
         $this->Content = $UxStackPanel;
-        $OpenToDoListForm = new UxButton();
+        $OpenToDoListForm = new UxTraitButton();
         $OpenToDoListForm->Content = "ToDoListForm";
 
         $OpenToDoListForm->Listener->Add(UxButton::$ClickEvent,"ShowToDoList", function (UxButton $button, RoutedEventArgs $e){
