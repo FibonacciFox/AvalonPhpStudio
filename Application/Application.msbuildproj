@@ -5,9 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.0.0-preview3" />
-    <PackageReference Include="Avalonia.Desktop" Version="11.0.0-preview3" />
-    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0-preview3" />
+    <!-- -->
   </ItemGroup>
   <ItemGroup>
     <Compile Include="**/*.php" />
