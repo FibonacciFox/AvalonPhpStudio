@@ -16,15 +16,14 @@ class MainWindow extends UxWindow {
 
         $UxStackPanel =  new UxStackPanel();
         $this->Content = $UxStackPanel;
+        //$OpenToDoListForm = new UxButton();
 
-        //Test компонента основанного на трейтах
-        $OpenToDoListForm = new class extends UxButton {
-            use InputElementEvents;
-        };
-
+         $OpenToDoListForm = new class extends UxButton {
+             use InputElementEvents;
+         };
         $OpenToDoListForm->Content = "ToDoListForm";
 
-        $OpenToDoListForm->OnClick(function($_) {
+        $OpenToDoListForm->OnClick(function(){
             $ToDoListForm = new ToDoListForm();
             $ToDoListForm->Show();
         });

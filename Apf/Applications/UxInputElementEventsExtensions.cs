@@ -1,4 +1,5 @@
-﻿using Avalonia.Input;
+﻿using System;
+using Avalonia.Input;
 using Avalonia.Input.TextInput;
 using Avalonia.Interactivity;
 
@@ -6,6 +7,7 @@ namespace Apf.Applications;
 
 public class UxInputElementEvents
 {
+    
     public InputElement OnGotFocus(InputElement control, Action<GotFocusEventArgs> action) => 
         control._setEvent((EventHandler<GotFocusEventArgs>) ((_, args) => action(args)), h => control.GotFocus += h);
     

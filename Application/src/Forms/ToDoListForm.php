@@ -1,7 +1,7 @@
 <?php
 
 namespace Forms;
-
+use InputElementEvents;
 use Apf\{
     Controls\UxButton,
     Controls\UxListBox,
@@ -10,7 +10,6 @@ use Apf\{
     Controls\UxTextBox
 };
 
-use InputElementEvents;
 use Avalonia\{
     Interactivity\RoutedEventArgs,
     Layout\Orientation
