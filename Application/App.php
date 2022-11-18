@@ -1,6 +1,7 @@
 <?php
 
 use Apf\Applications\UxApplication;
+use Forms\MainWindow;
 
 abstract class FluentThemeMode
 {

@@ -1,5 +1,6 @@
 <?php
 
+namespace Forms;
 
 use Apf\{
     Controls\UxButton,
@@ -9,12 +10,14 @@ use Apf\{
     Controls\UxTextBox
 };
 
+use InputElementEvents;
 use Avalonia\{
     Interactivity\RoutedEventArgs,
     Layout\Orientation
 };
 
 class ButtonAddItemToList extends UxButton {
+    use InputElementEvents;
     public function __construct()
     {
         $this->Content = "Добавить";
@@ -22,6 +25,7 @@ class ButtonAddItemToList extends UxButton {
 }
 
 class ButtonRemoveItemList extends UxButton {
+    use InputElementEvents;
     public function __construct()
     {
         $this->Content = "Удалить";
@@ -29,6 +33,7 @@ class ButtonRemoveItemList extends UxButton {
 }
 
 class TextBoxContentItem extends UxTextBox {
+
     public function __construct()
     {
         $this->Width = 630;
@@ -86,14 +91,14 @@ class ToDoListForm extends UxWindow
 
     private function setControlEvents(){
         //При нажатии кнопки добавляем текст в список задач
-        $this->ButtonAddItemToList->Listener->Add(UxButton::$ClickEvent,"AddTextToListBox", function(ButtonAddItemToList $button, RoutedEventArgs $e){
+        $this->ButtonAddItemToList->OnClick(function() {
             if($this->TextBoxContentItem->Text != ""){
                 $this->ToDoList->Items->Add(trim($this->TextBoxContentItem->Text));
                 $this->TextBoxContentItem->Text = "";
             }
         });
         //При нажатии кнопки удаляет выбранный текст из списка задач
-        $this->ButtonRemoveItemList->Listener->Add(UxButton::$ClickEvent,"AddTextToListBox", function(ButtonRemoveItemList $button, RoutedEventArgs $e){
+        $this->ButtonRemoveItemList->OnClick(function() {
             if($this->ToDoList->SelectedIndex != -1){
                 $index = $this->ToDoList->SelectedIndex;
                 $this->ToDoList->Items->RemoveAt($this->ToDoList->SelectedIndex);

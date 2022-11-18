@@ -1,7 +1,8 @@
 ﻿#nullable disable
 
-using Apf.Interactivity;
+using Apf.Applications;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using Avalonia.Styling;
 using Pchp.Core;
 
@@ -13,16 +14,8 @@ namespace Apf.Controls
     [PhpType]
     public class UxButton : Button, IStyleable
     {
-        [PhpHidden] Type IStyleable.StyleKey => typeof(Button);
-
-        /// <summary>
-        /// События  <see cref="UxButton.Listener"/>
-        /// </summary>
-        public UxEvents Listener;
-
-        public UxButton()
-        {
-            Listener = new UxEvents(this);
-        }
+        [PhpHidden] public Type StyleKey => typeof(Button);
+        public  UxButton OnClick(Action<RoutedEventArgs> action) => 
+            this._setEvent((EventHandler<RoutedEventArgs>) ((_, args) => action(args)), h => this.Click += h);
     }
 }

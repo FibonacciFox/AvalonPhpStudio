@@ -4,57 +4,50 @@ using Avalonia.Interactivity;
 
 namespace Apf.Applications;
 
-public class UxInputElementEventsExtensions
+public class UxInputElementEvents
 {
-    private InputElement _control;
+    public InputElement OnGotFocus(InputElement control, Action<GotFocusEventArgs> action) => 
+        control._setEvent((EventHandler<GotFocusEventArgs>) ((_, args) => action(args)), h => control.GotFocus += h);
     
-    public UxInputElementEventsExtensions(InputElement control)
-    {
-        _control = control;
-    }
+    public InputElement OnLostFocus(InputElement control, Action<RoutedEventArgs> action) => 
+        control._setEvent((EventHandler<RoutedEventArgs>) ((_, args) => action(args)), h => control.LostFocus += h);
     
-    public InputElement OnGotFocus( Action<GotFocusEventArgs> action) => 
-        _control._setEvent((EventHandler<GotFocusEventArgs>) ((_, args) => action(args)), h => _control.GotFocus += h);
+    public InputElement OnKeyDown(InputElement control, Action<KeyEventArgs> action) => 
+        control._setEvent((EventHandler<KeyEventArgs>) ((_, args) => action(args)), h => control.KeyDown += h);
     
-    public InputElement OnLostFocus(Action<RoutedEventArgs> action) => 
-        _control._setEvent((EventHandler<RoutedEventArgs>) ((_, args) => action(args)), h => _control.LostFocus += h);
+    public InputElement OnKeyUp(InputElement control, Action<KeyEventArgs> action) => 
+        control._setEvent((EventHandler<KeyEventArgs>) ((_, args) => action(args)), h => control.KeyUp += h);
     
-    public InputElement OnKeyDown(Action<KeyEventArgs> action) => 
-        _control._setEvent((EventHandler<KeyEventArgs>) ((_, args) => action(args)), h => _control.KeyDown += h);
+    public InputElement OnTextInput(InputElement control, Action<TextInputEventArgs> action) => 
+        control._setEvent((EventHandler<TextInputEventArgs>) ((_, args) => action(args)), h => control.TextInput += h);
     
-    public InputElement OnKeyUp(Action<KeyEventArgs> action) => 
-        _control._setEvent((EventHandler<KeyEventArgs>) ((_, args) => action(args)), h => _control.KeyUp += h);
+    public InputElement OnTextInputMethodClientRequested(InputElement control, Action<TextInputMethodClientRequestedEventArgs> action) => 
+        control._setEvent((EventHandler<TextInputMethodClientRequestedEventArgs>) ((_, args) => action(args)), h => control.TextInputMethodClientRequested += h);
     
-    public InputElement OnTextInput(Action<TextInputEventArgs> action) => 
-        _control._setEvent((EventHandler<TextInputEventArgs>) ((_, args) => action(args)), h => _control.TextInput += h);
+    public static InputElement OnPointerEntered(InputElement control,Action<PointerEventArgs> action) => 
+        control._setEvent((EventHandler<PointerEventArgs>) ((_, args) => action(args)), h => control.PointerEntered += h);
     
-    public InputElement OnTextInputMethodClientRequested(Action<TextInputMethodClientRequestedEventArgs> action) => 
-        _control._setEvent((EventHandler<TextInputMethodClientRequestedEventArgs>) ((_, args) => action(args)), h => _control.TextInputMethodClientRequested += h);
+    public InputElement OnPointerExited(InputElement control, Action<PointerEventArgs> action) => 
+        control._setEvent((EventHandler<PointerEventArgs>) ((_, args) => action(args)), h => control.PointerExited += h);
     
-    public InputElement OnPointerEntered(Action<PointerEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerEventArgs>) ((_, args) => action(args)), h => _control.PointerEntered += h);
+    public InputElement OnPointerMoved(InputElement control, Action<PointerEventArgs> action) => 
+        control._setEvent((EventHandler<PointerEventArgs>) ((_, args) => action(args)), h => control.PointerMoved += h);
     
-    public InputElement OnPointerExited(Action<PointerEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerEventArgs>) ((_, args) => action(args)), h => _control.PointerExited += h);
+    public InputElement OnPointerPressed(InputElement control, Action<PointerPressedEventArgs> action) => 
+        control._setEvent((EventHandler<PointerPressedEventArgs>) ((_, args) => action(args)), h => control.PointerPressed += h);
     
-    public InputElement OnPointerMoved(Action<PointerEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerEventArgs>) ((_, args) => action(args)), h => _control.PointerMoved += h);
+    public InputElement OnPointerReleased(InputElement control, Action<PointerReleasedEventArgs> action) => 
+        control._setEvent((EventHandler<PointerReleasedEventArgs>) ((_, args) => action(args)), h => control.PointerReleased += h);
     
-    public InputElement OnPointerPressed(Action<PointerPressedEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerPressedEventArgs>) ((_, args) => action(args)), h => _control.PointerPressed += h);
+    public InputElement OnPointerCaptureLost(InputElement control, Action<PointerCaptureLostEventArgs> action) => 
+        control._setEvent((EventHandler<PointerCaptureLostEventArgs>) ((_, args) => action(args)), h => control.PointerCaptureLost += h);
     
-    public InputElement OnPointerReleased(Action<PointerReleasedEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerReleasedEventArgs>) ((_, args) => action(args)), h => _control.PointerReleased += h);
+    public  InputElement OnPointerWheelChanged(InputElement control, Action<PointerWheelEventArgs> action) => 
+        control._setEvent((EventHandler<PointerWheelEventArgs>) ((_, args) => action(args)), h => control.PointerWheelChanged += h);
     
-    public InputElement OnPointerCaptureLost(Action<PointerCaptureLostEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerCaptureLostEventArgs>) ((_, args) => action(args)), h => _control.PointerCaptureLost += h);
-    
-    public  InputElement OnPointerWheelChanged(Action<PointerWheelEventArgs> action) => 
-        _control._setEvent((EventHandler<PointerWheelEventArgs>) ((_, args) => action(args)), h => _control.PointerWheelChanged += h);
-    
-    public InputElement OnTapped(Action<TappedEventArgs> action) => 
-        _control._setEvent((EventHandler<TappedEventArgs>) ((_, args) => action(args)), h => _control.Tapped += h);
+    public InputElement OnTapped(InputElement control, Action<TappedEventArgs> action) => 
+        control._setEvent((EventHandler<TappedEventArgs>) ((_, args) => action(args)), h => control.Tapped += h);
    
-    public InputElement OnDoubleTapped(Action<TappedEventArgs> action) => 
-        _control._setEvent((EventHandler<TappedEventArgs>) ((_, args) => action(args)), h => _control.DoubleTapped += h);
+    public InputElement OnDoubleTapped(InputElement control, Action<TappedEventArgs> action) => 
+        control._setEvent((EventHandler<TappedEventArgs>) ((_, args) => action(args)), h => control.DoubleTapped += h);
 }

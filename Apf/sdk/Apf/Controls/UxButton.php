@@ -1,8 +1,8 @@
 <?php
 
 namespace Apf\Controls;
-
-
+use Avalonia\Controls\Button;
+use Closure;
 /**
  * @property UxEvents $Listener [description] 
  * @property ClickMode $ClickMode [description] 
@@ -79,70 +79,14 @@ namespace Apf\Controls;
  * @property IResourceDictionary $Resources [description] 
  * @property ITemplatedControl $TemplatedParent [description] 
  //* @property-read IStyledElement $Parent [description]
- * @property IClock $Clock [description] 
- * @property Transitions $Transitions [description] 
- * @property object $Item [description] 
+ * @property IClock $Clock [description]
+ * @property Transitions $Transitions [description]
+ * @property object $Item [description]
  //* @property IBinding $Item [description]
  */
-class UxButton {
+class UxButton extends Button {
 
+    public function OnClick(Closure $callback) : void {
 
- public static Event $ClickEvent;
-
- public static Event $TemplateAppliedEvent;
-
- public static Event $ContextRequestedEvent;
-
- public static Event $GotFocusEvent;
-
- public static Event $LostFocusEvent;
-
- public static Event $KeyDownEvent;
-
- public static Event $KeyUpEvent;
-
- public static Event $TextInputEvent;
-
- public static Event $TextInputMethodClientRequestedEvent;
-
- public static Event $TextInputOptionsQueryEvent;
-
- public static Event $PointerEnterEvent;
-
- public static Event $PointerLeaveEvent;
-
- public static Event $PointerMovedEvent;
-
- public static Event $PointerPressedEvent;
-
- public static Event $PointerReleasedEvent;
-
- public static Event $PointerCaptureLostEvent;
-
- public static Event $PointerWheelChangedEvent;
-
- public static Event $TappedEvent;
-
- public static Event $DoubleTappedEvent;
-
- public static Event $EffectiveViewportChangedEvent;
-
- public static Event $LayoutUpdatedEvent;
-
- public static Event $AttachedToVisualTreeEvent;
-
- public static Event $DetachedFromVisualTreeEvent;
-
- public static Event $AttachedToLogicalTreeEvent;
-
- public static Event $DetachedFromLogicalTreeEvent;
-
- public static Event $DataContextChangedEvent;
-
- public static Event $InitializedEvent;
-
- public static Event $ResourcesChangedEvent;
-
- public static Event $PropertyChangedEvent;
-
+    }
 }
