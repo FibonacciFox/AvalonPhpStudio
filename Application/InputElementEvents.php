@@ -1,11 +1,10 @@
 <?php
 
-use Apf\Applications\UxInputElementEvents;
+use Apf\EventsExtensions\UxInputElementEvents;
 use Avalonia\Input\InputElement;
 
 trait InputElementEvents
 {
-
     /**
      * @param Closure $callback
      * @return InputElement

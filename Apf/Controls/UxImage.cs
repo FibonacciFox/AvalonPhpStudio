@@ -1,5 +1,4 @@
-﻿using Apf.Interactivity;
-using Avalonia.Controls;
+﻿using Avalonia.Controls;
 namespace Apf.Controls;
 
 /// <summary>
@@ -7,15 +6,5 @@ namespace Apf.Controls;
 /// </summary>
 public class UxImage : Image
 {
-    
-    /// <summary>
-    /// События  <see cref="UxContentControl.Listener"/>
-    /// </summary>
-    public UxEvents Listener;
-
-    public UxImage()
-    {
-        Listener = new UxEvents(this);
-    }
     
 }

@@ -5,10 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="Добавлены события InputElement">
+      <change afterPath="$PROJECT_DIR$/Application/src/Controls/Button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/Forms/Form3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apf/Applications/UxInputElementEventsExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Applications/UxInputElementEventsExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Applications/UxInputElementEventsExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/EventsExtensions/UxInputElementEventsExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/Primitives/UxToggleButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/Primitives/UxToggleButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxCalendar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxCalendar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxCarousel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxCarousel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxContentControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxContentControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxDockPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxDockPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxListBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxListBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxNumericUpDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxNumericUpDown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxProgressBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxProgressBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxRadioButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxRadioButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxRepeatButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxRepeatButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxStackPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxStackPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxTabControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxTabControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxTextBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxTextBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Interactivity/UxEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Applications/UxApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Applications/UxApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxButton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCalendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxCalendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCanvas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxCanvas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCarousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxCarousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxCheckBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxCheckBox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxContentControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxContentControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxDockPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxDockPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxListBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxListBox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxNumericUpDown.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxNumericUpDown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxProgressBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxProgressBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxRadioButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxRadioButton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxRepeatButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxRepeatButton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxStackPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxStackPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxTabControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxTabControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxTextBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxTextBox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Controls/UxWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Controls/UxWindow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Media/UxBitmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Media/UxBitmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Apf/Platform/AssetLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Platform/AssetLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Animation/Animatable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Animation/Animatable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/Button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/Button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/ContentControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/ContentControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/Control.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/Control.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/ListBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/ListBox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/Primitives/TemplatedControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/Primitives/TemplatedControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/TopLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/TopLevel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/Window.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/Window.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/WindowBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/WindowBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Controls/WindowTransparencyLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Controls/WindowTransparencyLevel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Input/InputElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Input/InputElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Interactivity/Interactive.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Interactivity/Interactive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Interactivity/RoutedEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Interactivity/RoutedEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Interactivity/RoutedEventArgs.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Interactivity/RoutedEventArgs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Layout/Layoutable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Layout/Layoutable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Media/IBrush.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Media/IBrush.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/Size.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/Size.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/sdk/Avalonia/StyledElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Avalonia/StyledElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.msbuildproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.msbuildproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/InputElementEvents.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/InputElementEvents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/Forms/MainWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/Forms/MainWindow.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/Forms/ToDoListForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/Forms/ToDoListForm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +122,7 @@
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shama\RiderProjects\AvalonPhpStudio\Application\src\Controls" />
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf\Media" />
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf" />
       <recent name="C:\Users\Bina\Desktop\PhpAppn07.08\Avalonia.Php\sdk\Avalonia\Controls" />
@@ -131,6 +195,7 @@
       <workItem from="1668698954759" duration="358000" />
       <workItem from="1668699354978" duration="10591000" />
       <workItem from="1668762433291" duration="18124000" />
+      <workItem from="1668868122948" duration="6731000" />
     </task>
     <task id="LOCAL-00001" summary="Update Php SDK">
       <created>1665341572571</created>

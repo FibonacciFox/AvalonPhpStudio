@@ -6,9 +6,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="**/*.php" />
+    <Compile Remove="sdk\**" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Apf\Apf.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaXaml Remove="sdk\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="sdk\**" />
   </ItemGroup>
   
 </Project>

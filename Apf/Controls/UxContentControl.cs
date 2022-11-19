@@ -1,6 +1,4 @@
-﻿using Apf.Interactivity;
-using Avalonia;
-using Avalonia.Controls;
+﻿using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using Pchp.Core;
 
@@ -17,17 +15,11 @@ namespace Apf.Controls;
         /// 
         /// </summary>
         private readonly IDictionary<string, PhpValue> _dataContent;
-
-        /// <summary>
-        /// События  <see cref="UxContentControl.Listener"/>
-        /// </summary>
-        public UxEvents Listener;
-            
+        
         public UxContentControl()
         {
             _dataContent = new Dictionary<string, PhpValue>();
-            
-            Listener = new UxEvents(this);
+
         }
         
         /// <summary>

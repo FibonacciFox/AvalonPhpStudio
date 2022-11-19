@@ -2,8 +2,8 @@
 
 namespace Forms;
 
-use InputElementEvents;
-use Apf\Controls\{UxButton, UxWindow, UxStackPanel };
+use Controls\Button;
+use Apf\Controls\{ UxWindow, UxStackPanel };
 
 class MainWindow extends UxWindow {
     
@@ -18,9 +18,7 @@ class MainWindow extends UxWindow {
         $this->Content = $UxStackPanel;
         //$OpenToDoListForm = new UxButton();
 
-         $OpenToDoListForm = new class extends UxButton {
-             use InputElementEvents;
-         };
+         $OpenToDoListForm = new Button();
         $OpenToDoListForm->Content = "ToDoListForm";
 
         $OpenToDoListForm->OnClick(function(){

@@ -10,7 +10,8 @@
   "autoload": {
     "psr-4": {
       "": "",
-      "Forms\\": "src/Forms"
+      "Forms\\": "src/Forms",
+      "Controls\\": "src/Controls"
     }
   }
 }

@@ -1,5 +1,4 @@
-﻿using Apf.Interactivity;
-using Avalonia.Controls;
+﻿using Avalonia.Controls;
 using Avalonia.Styling;
 using Pchp.Core;
 
@@ -9,13 +8,4 @@ public class UxRadioButton : RadioButton, IStyleable
 {
     [PhpHidden] Type IStyleable.StyleKey => typeof(RadioButton);
     
-    /// <summary>
-    /// События  <see cref="UxRadioButton.Listener"/>
-    /// </summary>
-    public UxEvents Listener;
-    
-    public UxRadioButton()
-    {
-        Listener = new UxEvents(this);
-    }
 }

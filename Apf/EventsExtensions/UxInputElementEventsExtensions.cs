@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Apf.Applications;
 using Avalonia.Input;
 using Avalonia.Input.TextInput;
 using Avalonia.Interactivity;
 
-namespace Apf.Applications;
+namespace Apf.EventsExtensions;
 
 public class UxInputElementEvents
 {
