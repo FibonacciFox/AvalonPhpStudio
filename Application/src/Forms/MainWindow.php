@@ -16,9 +16,8 @@ class MainWindow extends UxWindow {
 
         $UxStackPanel =  new UxStackPanel();
         $this->Content = $UxStackPanel;
-        //$OpenToDoListForm = new UxButton();
 
-         $OpenToDoListForm = new Button();
+        $OpenToDoListForm = new Button();
         $OpenToDoListForm->Content = "ToDoListForm";
 
         $OpenToDoListForm->OnClick(function(){
