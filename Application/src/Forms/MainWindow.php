@@ -3,10 +3,11 @@
 namespace Forms;
 
 use Controls\Button;
+use InputElementEvents;
 use Apf\Controls\{ UxWindow, UxStackPanel };
 
 class MainWindow extends UxWindow {
-    
+    use InputElementEvents;
      public function __construct() {
 
         $this->Title = "Панель примеров";
@@ -26,6 +27,7 @@ class MainWindow extends UxWindow {
         });
 
         $UxStackPanel->Children->Add($OpenToDoListForm);
+
      }
 
 }

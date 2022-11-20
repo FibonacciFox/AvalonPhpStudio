@@ -2,7 +2,7 @@
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Themes.Fluent;
 
-namespace Apf.Applications;
+namespace Apf.Platform;
 
 public static class UxAppBuilderMinimalExtensions
 {

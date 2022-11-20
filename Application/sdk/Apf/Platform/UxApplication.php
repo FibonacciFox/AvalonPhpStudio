@@ -1,5 +1,5 @@
 <?php
-namespace Apf\Applications;
+namespace Apf\Platform;
 
 use Closure;
 

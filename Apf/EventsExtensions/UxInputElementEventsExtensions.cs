@@ -1,5 +1,4 @@
-﻿using Apf.Applications;
-using Avalonia.Input;
+﻿using Avalonia.Input;
 using Avalonia.Input.TextInput;
 using Avalonia.Interactivity;
 

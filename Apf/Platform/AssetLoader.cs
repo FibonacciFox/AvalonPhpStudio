@@ -1,4 +1,8 @@
 ﻿#nullable disable
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using Avalonia;
 using Avalonia.Platform;
 using System.Reflection;
@@ -7,7 +11,7 @@ using Pchp.Core;
 namespace Apf.Platform;
 
 
-public class AssetLoader
+public class UxAssetLoader
 {
     private static readonly IAssetLoader Asset = AvaloniaLocator.Current.GetService<IAssetLoader>();
 

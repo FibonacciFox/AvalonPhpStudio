@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="Добавить трейты событий, свойств. Убрать зависимости от Ux компонентов обертки.">
+    <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="Добавлены события InputElement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Apf.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Apf.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Applications/AppBuilderMinimalExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Platform/AppBuilderMinimalExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Applications/ControlEventExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/EventsExtensions/ControlEventExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Applications/UxApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Platform/UxApplication.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apf/Controls/UxButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Controls/UxListBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Controls/UxListBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/EventsExtensions/UxInputElementEventsExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/EventsExtensions/UxInputElementEventsExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Platform/AssetLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Platform/AssetLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.msbuildproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.msbuildproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/sdk/Apf/Applications/UxApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/sdk/Apf/Platform/UxApplication.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/Forms/MainWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/Forms/MainWindow.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,23 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/pr/AvalonPhpStudio/Application/bin/Debug/net6.0/Application.exe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/pr/AvalonPhpStudio/Application/bin/Debug/net6.0/Application.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\phplib\src\App" />
@@ -58,7 +68,7 @@
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\shama\RiderProjects\AvalonPhpStudio\Application\src\Controls" />
+      <recent name="C:\Users\Administrator\Desktop\pr\AvalonPhpStudio\Application\sdk\Apf\Platform" />
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf\Media" />
       <recent name="C:\Users\Fibonacci\Desktop\PhpAppn04.09\Apf\sdk\Apf" />
       <recent name="C:\Users\Bina\Desktop\PhpAppn07.08\Avalonia.Php\sdk\Avalonia\Controls" />
@@ -131,7 +141,7 @@
       <workItem from="1668698954759" duration="358000" />
       <workItem from="1668699354978" duration="10591000" />
       <workItem from="1668762433291" duration="18124000" />
-      <workItem from="1668868122948" duration="9933000" />
+      <workItem from="1668907663220" duration="10168000" />
     </task>
     <task id="LOCAL-00001" summary="Update Php SDK">
       <created>1665341572571</created>
@@ -175,14 +185,7 @@
       <option name="project" value="LOCAL" />
       <updated>1668787140796</updated>
     </task>
-    <task id="LOCAL-00007" summary="Добавить трейты событий, свойств. Убрать зависимости от Ux компонентов обертки.">
-      <created>1668877229162</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1668877229162</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,10 +203,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update Php SDK" />
     <MESSAGE value="Добавлены события InputElement" />
-    <MESSAGE value="Добавить трейты событий, свойств. Убрать зависимости от Ux компонентов обертки." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавить трейты событий, свойств. Убрать зависимости от Ux компонентов обертки." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены события InputElement" />
   </component>
 </project>

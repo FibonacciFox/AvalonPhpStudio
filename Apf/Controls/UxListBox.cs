@@ -7,5 +7,4 @@ namespace Apf.Controls;
 public class UxListBox : ListBox, IStyleable
 {
     [PhpHidden] Type IStyleable.StyleKey => typeof(ListBox);
-    
 }

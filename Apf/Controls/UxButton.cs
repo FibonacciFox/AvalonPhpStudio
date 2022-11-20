@@ -1,6 +1,6 @@
 ﻿#nullable disable
 
-using Apf.Applications;
+using Apf.EventsExtensions;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Styling;

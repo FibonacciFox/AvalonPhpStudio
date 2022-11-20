@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Themes.Fluent;
 
-namespace Apf.Applications;
+namespace Apf.Platform;
 
 public class UxApplication
 {

@@ -1,6 +1,6 @@
 ﻿using Avalonia;
 
-namespace Apf.Applications;
+namespace Apf.EventsExtensions;
 
 public static class UxControlEventExtensions
 {
