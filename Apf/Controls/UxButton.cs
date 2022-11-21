@@ -14,7 +14,7 @@ namespace Apf.Controls
     [PhpType]
     public class UxButton : Button, IStyleable
     {
-        [PhpHidden] Type IStyleable.StyleKey => typeof(Button);
+        [PhpHidden] public Type StyleKey => typeof(Button);
         public UxButton OnClick(Action<RoutedEventArgs> action) =>
             this._setEvent((EventHandler<RoutedEventArgs>)((_, args) => action(args)), h => this.Click += h);
     }
