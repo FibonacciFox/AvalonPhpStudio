@@ -15,4 +15,13 @@
       <PackageReference Include="Peachpie.Runtime" Version="1.1.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Update="EventsExtensions\UxInputElementEventsExtensions.cs">
+        <DependentUpon>ControlEventExtensions.cs</DependentUpon>
+      </Compile>
+      <Compile Update="EventsExtensions\UxButtonExtensions.cs">
+        <DependentUpon>ControlPropertyExtensions.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
