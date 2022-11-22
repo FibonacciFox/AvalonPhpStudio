@@ -9,7 +9,8 @@
     <Compile Remove="sdk\**" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Apf\Apf.csproj" />
+    <!--<ProjectReference Include="..\Apf\Apf.csproj" /> -->
+    <PackageReference Include="AvaloniaPhpFramework" Version="0.0.1" />
   </ItemGroup>
   <ItemGroup>
     <AvaloniaXaml Remove="sdk\**" />

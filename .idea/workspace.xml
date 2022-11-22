@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4117dcce-a5dd-4695-8ced-f782227c28ec" name="Changes" comment="Добавить трейты событий, свойств. Убрать зависимости от Ux компонентов обертки.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/Forms/MainWindow.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/Forms/MainWindow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apf/Apf.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Apf/Apf.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
       <workItem from="1668699354978" duration="10591000" />
       <workItem from="1668762433291" duration="18124000" />
       <workItem from="1668868122948" duration="9933000" />
-      <workItem from="1669122812766" duration="12089000" />
+      <workItem from="1669122812766" duration="12833000" />
     </task>
     <task id="LOCAL-00001" summary="Update Php SDK">
       <created>1665341572571</created>
