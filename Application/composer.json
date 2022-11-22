@@ -11,7 +11,8 @@
     "psr-4": {
       "": "",
       "Forms\\": "src/Forms",
-      "Controls\\": "src/Controls"
+      "Controls\\": "src/Controls",
+      "Extensions\\": ""
     }
   }
 }

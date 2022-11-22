@@ -16,11 +16,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="EventsExtensions\UxInputElementEventsExtensions.cs">
-        <DependentUpon>ControlEventExtensions.cs</DependentUpon>
-      </Compile>
-      <Compile Update="EventsExtensions\UxButtonExtensions.cs">
-        <DependentUpon>ControlPropertyExtensions.cs</DependentUpon>
+      <Folder Include="PropertyExtensions" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="EventsExtensions\ControlEventExtensions.Generated.cs">
+        <DependentUpon>UxControlEventExtensions.cs</DependentUpon>
       </Compile>
     </ItemGroup>
 

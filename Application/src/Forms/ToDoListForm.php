@@ -1,30 +1,18 @@
 <?php
 
 namespace Forms;
-use InputElementEvents;
-use Apf\{
-    Controls\UxButton,
-    Controls\UxListBox,
-    Controls\UxWindow,
-    Controls\UxStackPanel,
-    Controls\UxTextBox
-};
+use Controls\Button;
+use Apf\{Controls\UxListBox, Controls\UxStackPanel, Controls\UxTextBox, Controls\UxWindow};
+use Avalonia\{Layout\Orientation};
 
-use Avalonia\{
-    Interactivity\RoutedEventArgs,
-    Layout\Orientation
-};
-
-class ButtonAddItemToList extends UxButton {
-    use InputElementEvents;
+class ButtonAddItemToList extends Button {
     public function __construct()
     {
         $this->Content = "Добавить";
     }
 }
 
-class ButtonRemoveItemList extends UxButton {
-    use InputElementEvents;
+class ButtonRemoveItemList extends Button {
     public function __construct()
     {
         $this->Content = "Удалить";

@@ -1,8 +1,8 @@
 ﻿using Avalonia;
 
-namespace Apf.EventsExtensions;
+namespace Apf.ControlEventsExtensions;
 
-public static class UxControlEventExtensions
+public static class ControlEventExtensions
 {
     public static TControl _setEvent<TControl, THandler>(this TControl control, THandler handler, Action<THandler> subscribe)
         where TControl : AvaloniaObject

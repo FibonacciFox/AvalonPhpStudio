@@ -1,17 +1,16 @@
 <?php
 
-use Apf\EventsExtensions\UxInputElementEvents;
+use Apf\ControlEventsExtensions\InputElementEventsExtensions;
 use Avalonia\Input\InputElement;
 
-trait InputElementEvents
+trait UxInputElementEventsExtensions
 {
     /**
      * @param Closure $callback
      * @return InputElement
      */
-    public function OnInputGotFocus(Closure $callback): InputElement
-    {
-        return UxInputElementEvents::OnGotFocus($this, $callback);
+    public function OnInputGotFocus(Closure $callback): InputElement {
+        return InputElementEventsExtensions::OnGotFocus($this, $callback);
     }
 
     /**
@@ -20,7 +19,7 @@ trait InputElementEvents
      */
     public function OnInputLostFocus(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnLostFocus($this, $callback);
+        return InputElementEventsExtensions::OnLostFocus($this, $callback);
     }
 
     /**
@@ -29,7 +28,7 @@ trait InputElementEvents
      */
     public function OnInputKeyDown(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnKeyDown($this, $callback);
+        return InputElementEventsExtensions::OnKeyDown($this, $callback);
     }
 
     /**
@@ -38,7 +37,7 @@ trait InputElementEvents
      */
     public function OnInputKeyUp(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnKeyUp($this, $callback);
+        return InputElementEventsExtensions::OnKeyUp($this, $callback);
     }
 
     /**
@@ -47,7 +46,7 @@ trait InputElementEvents
      */
     public function OnInputTextInput(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnTextInput($this, $callback);
+        return InputElementEventsExtensions::OnTextInput($this, $callback);
     }
 
     /**
@@ -56,7 +55,7 @@ trait InputElementEvents
      */
     public function OnInputTextInputMethodClientRequested(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnTextInputMethodClientRequested($this, $callback);
+        return InputElementEventsExtensions::OnTextInputMethodClientRequested($this, $callback);
     }
 
     /**
@@ -65,7 +64,7 @@ trait InputElementEvents
      */
     public function OnInputPointerEntered(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerEntered($this, $callback);
+        return InputElementEventsExtensions::OnPointerEntered($this, $callback);
     }
 
     /**
@@ -74,7 +73,7 @@ trait InputElementEvents
      */
     public function OnInputPointerExited(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerExited($this, $callback);
+        return InputElementEventsExtensions::OnPointerExited($this, $callback);
     }
 
     /**
@@ -83,7 +82,7 @@ trait InputElementEvents
      */
     public function OnInputPointerMoved(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerMoved($this, $callback);
+        return InputElementEventsExtensions::OnPointerMoved($this, $callback);
     }
 
     /**
@@ -92,7 +91,7 @@ trait InputElementEvents
      */
     public function OnInputPointerPressed(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerPressed($this, $callback);
+        return InputElementEventsExtensions::OnPointerPressed($this, $callback);
     }
 
     /**
@@ -101,7 +100,7 @@ trait InputElementEvents
      */
     public function OnInputPointerReleased(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerReleased($this, $callback);
+        return InputElementEventsExtensions::OnPointerReleased($this, $callback);
     }
 
     /**
@@ -113,7 +112,7 @@ trait InputElementEvents
      */
     public function OnInputPointerCaptureLost(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerCaptureLost($this, $callback);
+        return InputElementEventsExtensions::OnPointerCaptureLost($this, $callback);
     }
 
     /**
@@ -123,7 +122,7 @@ trait InputElementEvents
      */
     public function OnInputPointerWheelChanged(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnPointerWheelChanged($this, $callback);
+        return InputElementEventsExtensions::OnPointerWheelChanged($this, $callback);
     }
 
     /**
@@ -133,7 +132,7 @@ trait InputElementEvents
      */
     public function OnInputTapped(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnTapped($this, $callback);
+        return InputElementEventsExtensions::OnTapped($this, $callback);
     }
 
     /**
@@ -143,6 +142,6 @@ trait InputElementEvents
      */
     public function OnInputDoubleTapped(Closure $callback): InputElement
     {
-        return UxInputElementEvents::OnDoubleTapped($this, $callback);
+        return InputElementEventsExtensions::OnDoubleTapped($this, $callback);
     }
 }

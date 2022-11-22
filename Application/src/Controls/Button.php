@@ -3,8 +3,9 @@
 namespace Controls;
 
 use Apf\Controls\UxButton;
-use InputElementEvents;
+use UxInputElementEventsExtensions;
+
 
 class Button extends UxButton {
-    use InputElementEvents;
+    use UxInputElementEventsExtensions;
 };

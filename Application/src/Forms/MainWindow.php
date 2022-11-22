@@ -3,11 +3,9 @@
 namespace Forms;
 
 use Controls\Button;
-use InputElementEvents;
 use Apf\Controls\{ UxWindow, UxStackPanel };
 
 class MainWindow extends UxWindow {
-    use InputElementEvents;
      public function __construct() {
 
         $this->Title = "Панель примеров";
@@ -21,7 +19,7 @@ class MainWindow extends UxWindow {
         $OpenToDoListForm = new Button();
         $OpenToDoListForm->Content = "ToDoListForm";
 
-        $OpenToDoListForm->OnClick(function(){
+        $OpenToDoListForm->OnClick(function($RoutedEventArgs){
             $ToDoListForm = new ToDoListForm();
             $ToDoListForm->Show();
         });
